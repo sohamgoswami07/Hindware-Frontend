@@ -1,0 +1,39 @@
+{
+    "attributes": [
+        {
+            "name": "room_name",
+            "required": true,
+            "type": "name"
+        },
+        {
+            "auto_updater": true,
+            "default": {
+                "args": [
+                    "room_name"
+                ],
+                "function": "name_to_id",
+                "kwargs": {
+                    "attribute_join": "_",
+                    "case": "lower",
+                    "compressor": "to_ascii_lower",
+                    "is_unique": true,
+                    "separator": "_",
+                    "skip_empty": true,
+                    "translate": [
+                        "+?()&",
+                        "_____"
+                    ]
+                }
+            },
+            "id": true,
+            "name": "room_id",
+            "type": "uid"
+        },
+        {
+            "name": "thumbnail",
+            "type": "image"
+        }
+    ],
+    "name": "room",
+    "timezone": "Asia/Kolkata"
+}

@@ -1,0 +1,697 @@
+body{
+    margin: 0;
+}
+
+
+.content{
+    position: absolute;
+    background: url(../assets/img/Bathroom.png),black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.left-slider{
+    
+    position: relative;
+   
+}
+
+.right-btns{
+    position: relative;
+     float: right;
+}
+.rbtns{
+    position: relative;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: rgba(22, 31, 41, 0.8);
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    margin-top: 14px;
+    padding: 26%;
+    text-align: -webkit-center;
+    border-radius: 100%;
+}
+.right-btns>button{
+    display: contents;
+}
+.rbtns>img{
+    width: 24px;
+
+}
+
+
+/* slick-slider-css */
+
+
+
+.containera {
+    width: 68rem;
+    position: relative;
+    left: 1px;
+    z-index: 50;
+    margin-top: 38px;
+    transition: all linear .2s;
+
+}
+
+
+.slider-right{
+    background-color: red;
+}
+
+
+
+
+/* Image */
+.slick-current div img{
+    max-width:92%;
+    min-width:68px;
+   }
+   
+   /* Thumb img */
+   .slick-track div .thumbImg{
+    min-height:129px;
+    transform:translatex(0px) translatey(0px);
+   }
+   
+   /* Image */
+   .slick-track div img{
+    min-height:48px;
+    height:48px;
+    width:85px;
+    transform:translatex(0px) translatey(25px);
+   }
+   
+/*USE CSS for Slider*/
+.thumbImg{
+    background: #161F29CC;
+    text-align: -webkit-center;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 40px;
+}
+.thumbImg img{
+    width: 20px;
+}
+
+.banner-slider .slider.slider-for {
+    max-width: 84%;
+    padding-right: 35px;
+}
+.banner-slider img {
+    max-width: 100%;
+}
+.banner-slider .slider.slider-nav {
+    max-width: 16%;
+}
+.banner-slider .slider.slider-for,
+.banner-slider .slider.slider-nav {
+    width: 100%;
+    float: left;
+}
+.banner-slider .slider.slider-nav {
+    height: 610px;
+    overflow: hidden;
+
+}
+.slider-banner-image {
+    height: 610px;
+}
+.banner-slider .slider.slider-nav {
+    padding: 10px 3px 57px;
+    height: 77vh !important;
+    /* background: rgb(53 60 69 / 77%); */
+}
+.slider-nav .slick-slide.thumbnail-image .thumbImg{
+    max-width: 178px;
+    height: 110px;
+    margin: 0 auto;
+    border: 1px solid #EBEBEB;
+}
+.slider-banner-image img,
+.slider-nav .slick-slide.thumbnail-image .thumbImg img {
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.slick-vertical .slick-slide:active,
+.slick-vertical .slick-slide:focus,
+.slick-arrow:hover,
+.slick-arrow:focus {
+    border: 0;
+    outline: 0;
+}
+.slider-nav .slick-slide.slick-current.thumbnail-image .thumbImg {
+    border: 2px solid #196DB6;
+}
+.slider-nav .slick-slide.slick-current span {
+    /* color: #196DB6; */
+}
+.slider-nav .slick-slide {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.slider-nav .slick-slide span {
+    /* font-family: 'Inter'; */ 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(22, 31, 41, 0.8);
+}
+.slick-arrow {
+    width: 100%;
+    background-color: #797c87;
+    border: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 0;
+    height: 42px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 28px 28px !important;
+    /* padding: 10%; */
+    z-index: 99;
+}
+.slick-prev {
+   top: 0;
+}
+.slick-next {
+   bottom: 0;
+   width: 100%;
+   background-color: #56585e;
+   border: 0;
+   background-position: center;
+   background-repeat: no-repeat;
+   font-size: 0;
+   height: 42px;
+   position: absolute;
+   left: 0;
+   right: 0;
+   border-radius:  28px 28px 0 0;
+   /* padding: 10%; */
+   z-index: 99;
+}
+.slick-prev.slick-arrow {
+    /* background-image: url(/assets/img/Icons/navigate-down.svg);
+    transform: rotateX(180deg); */
+    display: none !important;
+}
+.slick-next.slick-arrow {
+    background-image: url(../assets/img/Icons/navigate-down.svg);
+    position: fixed;
+    width: 179px;
+    left: 0px;
+    bottom: -8px;
+    height: 30px;
+}
+/*End USE CSS for Slider*/
+/* 
+@media screen and (max-width : 991px) {
+
+	.banner-slider .slider.slider-for,
+	.banner-slider .slider.slider-nav {
+	    max-width: 100%;
+	    float: none;
+	}
+	.banner-slider .slider.slider-for {
+		padding-right: 0;
+	}
+	.banner-slider .slider.slider-nav {
+		height: auto;
+	}
+	.slider-banner-image {
+	    height: 500px;
+	} 
+	.slider.slider-nav.thumb-image {
+        padding: 10px 30px 0;
+	}
+	.slider-nav .slick-slide span {
+		padding: 5px 0;
+	}
+	.slick-arrow {
+		padding: 0;
+	    width: 30px;
+	    height: 30px;
+	    top: 50%;
+	    bottom: 0;
+	    -webkit-transform: translateY(-50%) rotate(-90deg);
+	    -moz-transform: translateY(-50%) rotate(-90deg);
+	    -ms-transform: translateY(-50%) rotate(-90deg);
+	    transform: translateY(-50%) rotate(-90deg);
+	}
+	.slick-prev {
+	    left: 0;
+	    right: unset;
+	}
+	.slick-next {
+	    left: unset;
+	    right: 0;
+   		background-color: transparent;
+	}
+	.vehicle-detail-banner .car-slider-desc {
+    	max-width: 340px;
+	}
+	.bid-tag {
+    	padding: 10px 0 15px;
+	}
+	.slider.slider-nav.thumb-image {
+	   white-space: nowrap;
+	}
+	.thumbnail-image.slick-slide {
+		padding: 0px 5px;
+		min-width: 75px;
+		display: inline-block;
+		float: none;
+	}
+}
+
+@media screen and (max-width : 767px) {
+	.slider-banner-image {
+	    height: 400px;
+	}
+	.slider.slider-nav.thumb-image {
+    	padding: 0px 20px 0;
+    	margin: 10px 0px 0;
+	}
+	.slider-nav .slick-slide.thumbnail-image .thumbImg {
+		max-width: 140px;
+		height: 80px;
+	}
+	.slick-prev.slick-arrow {
+    	background-position: center 10px;
+	}
+	.slick-next.slick-arrow {
+    	background-position: center 10px, center;
+	}
+	.slider-nav .slick-slide span {
+	    font-size: 12px;
+	    white-space: normal;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.slider-banner-image {
+	    height:340px;
+	}
+}
+
+@media screen and (max-width : 480px) {
+	.slider-banner-image {
+	    height:280px;
+	}
+} */
+
+.left-carousel{
+    position: absolute;
+    top: 5px;
+    left: 21px;
+}
+.containerl{
+    background: #C3C7E780;
+    height: 98vh;
+    width: 178px;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+}
+.containerl .searchbox{
+    position: relative;
+    width: 162px;
+    border: 2px solid #161F29CC; 
+    left: 8px;
+    top: 17px;
+    background: #C3C7E780;
+    height: 39px;
+    border-radius: 20px;
+}
+.containerl .searchbox img{
+    width: 17px;
+    margin-left: 9px;
+}
+.containerl .searchbox input{
+    background: #ff000000;
+    border: none;
+    width: 116px;
+    top: 4px;
+    position: relative;
+    left: 7px;
+
+}
+.containerl .searchbox input:focus-visible{
+    outline: none;
+}
+.containerl .categorybox{
+    position: relative;
+    width: 162px;
+    border: 2px solid #394049;
+    left: 8px;
+    top: 30px;
+    background: #161F29CC;
+    text-align: center;
+    height: 39px;
+    border-radius: 20px;
+    padding: 4px;
+    /* color: white;
+    letter-spacing: 2px; */
+
+}
+.containerl .categorybox label{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+.rotate{
+    display: none;
+}
+
+@media all and (orientation:portrait) {  
+    /* Styles for Portrait screen */  
+    /* }
+    @media only screen and (max-width: 767.98px) { */
+        .rotate {
+            visibility: visible;
+            display: block !important;
+            background: #000000cc;
+            box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            z-index: 999999;
+            height: -webkit-fill-available;
+            width: -webkit-fill-available;
+            position: fixed;
+            
+            
+            
+        }
+        
+        .rotate .image {
+            height: 100%;
+        }
+    }
+
+
+
+    @media only screen and (max-width: 987px){
+
+        .content{
+            position: absolute;
+            background: url(../assets/img/Bathroom.png),black;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: -webkit-fill-available;
+            width: -webkit-fill-available;
+        }
+        
+        .left-slider{
+            
+            position: relative;
+           
+        }
+        
+        .right-btns{
+            position: relative;
+             float: right;
+        }
+        .rbtns{
+            position: relative;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            background: rgba(22, 31, 41, 0.8);
+            backdrop-filter: blur(10px);
+            box-sizing: border-box;
+            width: 40px;
+            height: 40px;
+            margin-top: 14px;
+            padding: 15%;
+            text-align: -webkit-center;
+            border-radius: 100%;
+        }
+        .right-btns>button{
+            display: contents;
+        }
+        .rbtns>img{
+            width: 16px;
+        
+        }
+        
+        
+        /* slick-slider-css */
+        
+        
+        
+        .containera {
+            /* width: 30rem;
+            top: 16vh;
+            position: absolute;
+            left: 22px;
+            z-index: 50; */
+            width: 30rem;
+    margin-top: 13px;
+    position: absolute;
+    left: 13px;
+    z-index: 50;
+    transition: all linear .2s;
+        
+        }
+        
+
+        .left-carousel{
+            position: absolute;
+            top: 5px;
+            left: 10px;
+        }
+        .containerl{
+            background: #C3C7E780;
+            height: 98vh;
+            width: 103px;
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+        /* Note: backdrop-filter has minimal browser support */
+        
+        
+        }
+        .containerl .searchbox{
+            position: relative;
+            width: 91px;
+            border: 2px solid #161F29CC;
+            left: 6px;
+            top: 17px;
+            background: #C3C7E780;
+            height: 24px;
+            border-radius: 20px;
+        }
+        .containerl .searchbox img{
+            width: 12px;
+    margin-top: -7px;
+    margin-left: 7px;
+        }
+        .containerl .searchbox input{
+            background: #ff000000;
+            border: none;
+            width: 56px;
+            top: -3px;
+            font-size: 12px;
+            position: relative;
+            left: 4px;
+        }
+        .containerl .searchbox input:focus-visible{
+            outline: none;
+        }
+        .containerl .categorybox{
+            position: relative;
+            width: 91px;
+            border: 2px solid #394049;
+            left: 6px;
+            top: 22px;
+            background: #161F29CC;
+            text-align: center;
+            height: 24px;
+            border-radius: 20px;
+            padding: 0px;
+            /* color: white;
+            letter-spacing: 2px; */
+        
+        }
+        .containerl .categorybox label{
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 8px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            position: relative;
+            top: -4px;
+        }
+
+        
+.slider-right{
+    background-color: red;
+}
+
+
+
+
+/* Image */
+.slick-current div img{
+    max-width:92%;
+    min-width:68px;
+   }
+   
+   /* Thumb img */
+   .slick-track div .thumbImg{
+    min-height:75px;
+    transform:translatex(0px) translatey(0px);
+   }
+   
+   /* Image */
+   .slick-track div img{
+    min-height: 33px;
+    height: 32px;
+    width: 78px;
+    transform: translatex(0px) translatey(20px);
+   }
+   
+/*USE CSS for Slider*/
+.thumbImg{
+    background: #161F29CC;
+    text-align: -webkit-center;
+    box-sizing: border-box;
+    padding: 0px;
+    border-radius: 26px;
+}
+.thumbImg img{
+    width: 20px;
+}
+
+.banner-slider .slider.slider-for {
+    max-width: 84%;
+    padding-right: 35px;
+}
+.banner-slider img {
+    max-width: 100%;
+}
+.banner-slider .slider.slider-nav {
+    max-width: 16%;
+}
+.banner-slider .slider.slider-for,
+.banner-slider .slider.slider-nav {
+    width: 100%;
+    float: left;
+}
+.banner-slider .slider.slider-nav {
+    height: 610px;
+    overflow: hidden;
+
+}
+.slider-banner-image {
+    height: 610px;
+}
+.banner-slider .slider.slider-nav {
+    padding: 18px 3px 57px;
+    height: 77vh !important;
+    /* background: rgb(53 60 69 / 77%); */
+}
+.slider-nav .slick-slide.thumbnail-image .thumbImg{
+    max-width: 178px;
+    height: 110px;
+    margin: 0 auto;
+    border: 1px solid #EBEBEB;
+}
+.slider-banner-image img,
+.slider-nav .slick-slide.thumbnail-image .thumbImg img {
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.slick-vertical .slick-slide:active,
+.slick-vertical .slick-slide:focus,
+.slick-arrow:hover,
+.slick-arrow:focus {
+    border: 0;
+    outline: 0;
+}
+.slider-nav .slick-slide.slick-current.thumbnail-image .thumbImg {
+    border: 2px solid #196DB6;
+}
+.slider-nav .slick-slide.slick-current span {
+    /* color: #196DB6; */
+}
+.slider-nav .slick-slide {
+    text-align: center;
+    margin-bottom: 3px;
+}
+.slider-nav .slick-slide span {
+    /* font-family: 'Inter' ,sans-serif; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: rgba(22, 31, 41, 0.8);
+}
+.slick-arrow {
+    width: 100%;
+    background-color: #797c87;
+    border: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 0;
+    height: 42px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 28px 28px !important;
+    /* padding: 10%; */
+    z-index: 99;
+}
+.slick-prev {
+   top: 0;
+}
+.slick-next {
+   bottom: 0;
+   width: 100%;
+   background-color: #56585e;
+   border: 0;
+   background-position: center;
+   background-repeat: no-repeat;
+   font-size: 0;
+   height: 42px;
+   position: absolute;
+   left: 0;
+   right: 0;
+   border-radius:  28px 28px 0 0;
+   /* padding: 10%; */
+   z-index: 99;
+}
+.slick-prev.slick-arrow {
+    /* background-image: url(/img/Icons/navigate-down.svg);
+    transform: rotateX(180deg); */
+    display: none !important;
+}
+.slick-next.slick-arrow {
+    background-image: url(../assets/img/Icons/navigate-down.svg);
+    position: fixed;
+    width: 103px;
+    left: 0px;
+    bottom: 0px;
+    background-size: 27px;
+    height: 19px;
+}
+}

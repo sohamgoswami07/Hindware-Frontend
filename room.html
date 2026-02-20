@@ -1,0 +1,881 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Home Innovation</title>
+
+    <!-- details -->
+    <meta name="description" content="Home innovation demo website" />
+    <meta
+      name="keywords"
+      content="Home Innovation, Bathroom Design, Bathroom Products, Bath Business, Tiles"
+    />
+    <meta name="author" content="Soham Goswami" />
+
+    <!-- mobile responsive -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0,minimum-scale=0.8, user-scalable=no"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+
+    <!-- vendor css -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    />
+
+    <!-- custom css.5 -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Babylon.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.2/dat.gui.min.js"></script>
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <style>
+      #loader {
+        z-index: 1;
+        width: 200px;
+        position: fixed;
+        left: calc(50vw - 100px);
+        top: calc(50vh - 20px);
+        display: none;
+      }
+
+      #loader img {
+        width: 100%;
+      }
+
+      .dynamic-overlay {
+        display: none;
+        position: absolute;
+        width: -webkit-fill-available;
+        height: -webkit-fill-available;
+        background-size: contain;
+      }
+
+      .bathroom_contemporary {
+        background: url(assets/img/home/bathroom_contenporary.webp) no-repeat
+          top center;
+        filter: blur(8px);
+        -webkit-filter: blur(3px);
+        background-size: contain;
+      }
+
+      .bathroom_large {
+        background: url(assets/img/home/1.webp) no-repeat top center;
+        filter: blur(8px);
+        -webkit-filter: blur(3px);
+        background-size: contain;
+      }
+
+      .bathroom_lushgreen {
+        background: url(assets/img/home/bathroom_lushgreen.webp) no-repeat top
+          center;
+        filter: blur(8px);
+        -webkit-filter: blur(3px);
+        background-size: contain;
+      }
+
+      .bathroom_palmblossom {
+        background: url(assets/img/home/bathroom_palmblossom.png) no-repeat top
+          center;
+        filter: blur(8px);
+        -webkit-filter: blur(3px);
+        background-size: contain;
+      }
+
+      .bathroom_modernglam {
+        background: url(assets/img/home/French\Fantasy\Room.jpg) no-repeat top
+          center;
+        filter: blur(8px);
+        -webkit-filter: blur(3px);
+        background-size: contain;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="loader2" class="preloader2">
+      <div
+        class="dynamic-overlay bathroom_contemporary"
+        id="bathroom_contemporary"
+      ></div>
+      <div class="dynamic-overlay bathroom_large" id="bathroom_large"></div>
+      <div
+        class="dynamic-overlay bathroom_lushgreen"
+        id="bathroom_lushgreen"
+      ></div>
+      <div
+        class="dynamic-overlay bathroom_palmblossom"
+        id="bathroom_palmblossom"
+      ></div>
+      <div
+        class="dynamic-overlay bathroom_modernglam"
+        id="bathroom_modernglam"
+      ></div>
+      <!-- <img src="/assets/img/loader.webp"> -->
+    </div>
+    <div id="loader">
+      <img src="/assets/img/loader.gif" />
+    </div>
+    <section class="banner-section">
+      <div class="store-finder" style="display: none">
+        <button data-toggle="modal" data-target="#basicModal">
+          <div class="storefindbtn">
+            <img
+              src="assets/img/newui/Vector (7).svg"
+              alt=""
+              style="float: left; width: 25px; margin-left: 12px"
+            />
+
+            <img
+              src="assets/img/newui/STORE FINDER.svg"
+              style="width: 100px"
+              alt=""
+            />
+          </div>
+        </button>
+      </div>
+      <div class="right-btns" id="resize">
+        <button
+          onclick="openFullscreen()"
+          class="track-btn"
+          data-variable="maximize_screen"
+        >
+          <div class="rbtns" title="Full Screen">
+            <img src="assets/img/Icons/Maximize.svg" alt="" />
+          </div>
+        </button>
+        <button class="track-btn" data-variable="auto_rotate">
+          <div
+            class="rbtns"
+            onclick="window.p.startAutoRotate()"
+            title="Auto-Rotate"
+          >
+            <img src="assets/img/Icons/360-degrees.svg" alt="" />
+          </div>
+        </button>
+        <button class="track-btn" data-variable="camera_reset">
+          <div
+            class="rbtns"
+            onclick="window.p.resetCamera()"
+            title="Reset Camera"
+          >
+            <img src="assets/img/Icons/Reset.svg" alt="" />
+          </div>
+        </button>
+        <button
+          onclick="myFunction()"
+          title="Share"
+          class="track-btn"
+          data-variable="share"
+        >
+          <div class="rbtns">
+            <img src="assets/img/Icons/Share.svg" alt="" />
+          </div>
+        </button>
+      </div>
+      <div class="share-new share-show" id="share2">
+        <div class="socialicon2">
+          <img
+            src="assets/img/fb.png"
+            alt="facebook_share"
+            class="track-btn"
+            data-variable="facebook_share"
+          />
+          <img
+            src="assets/img/twitter.png"
+            alt="twitter_share"
+            class="track-btn"
+            data-variable="twitter_share"
+          />
+          <img
+            src="assets/img/mail.png"
+            alt="mail_share"
+            class="track-btn"
+            data-variable="mail"
+          />
+        </div>
+        <div class="sharelink2">
+          <button onclick="copyfunct()">
+            <img
+              src="assets/img/share-link.svg"
+              alt=""
+              class="track-btn"
+              data-variable="copy_share_link"
+            />
+            Copy Link
+          </button>
+
+          <input type="text" id="sharebox" readonly />
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="basicModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="basicModal"
+        aria-hidden="true"
+      >
+        <div
+          class="modal-dialog"
+          style="bottom: 41px; position: fixed; right: 4px"
+        >
+          <div
+            class="modal-content sharemodal"
+            style="
+              border: 3px solid #e1c16700;
+              background: #00000000;
+              border-radius: 30px;
+            "
+          >
+            <div class="modal-body">
+              <div
+                class="sharelink"
+                style="
+                  margin-top: 0;
+                  position: relative;
+                  margin-bottom: 0;
+                  bottom: -80px;
+                "
+              >
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                  style="
+                    color: #e1c167;
+                    position: absolute;
+                    right: 5%;
+                    bottom: 54px;
+                  "
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <input
+                  type="text"
+                  id="pincode"
+                  placeholder="Enter pincode"
+                  pattern="[0-9]{6}"
+                  maxlength="6"
+                  minlength="6"
+                  style="
+                    width: 82%;
+                    padding: 1rem;
+                    border-radius: 55px;
+                    font-size: 1rem;
+                    font-weight: 100;
+                    color: #e1c167;
+                    border: 2px solid #e1c167;
+                    background: #000;
+                    text-align: left;
+                    height: 52px;
+                  "
+                />
+                <select id="city" style="display: none">
+                  <option value="">city</option>
+                </select>
+                <button
+                  id="go"
+                  onclick="getFiltercityJson(event)"
+                  style="
+                    padding: 1.1rem 1.45rem;
+                    position: absolute;
+                    height: 46px;
+                    width: 50px;
+                    bottom: 6%;
+                    right: 10%;
+                  "
+                >
+                  <img
+                    src="assets/img/Search (1).svg"
+                    alt=""
+                    style="
+                      height: 16px;
+                      position: absolute;
+                      bottom: 30%;
+                      right: 32%;
+                    "
+                  />
+                </button>
+              </div>
+              <div
+                class="socialicon"
+                id="filter_data_div"
+                style="
+                  margin-top: -2px;
+                  height: min-content;
+                  overflow-y: scroll;
+                  max-height: 470px;
+                  max-width: 270px;
+                  padding-top: 102px;
+                  background: #00000080;
+                  border-radius: 20px;
+                  text-align: -webkit-center !important;
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#proddesc">Click to open Modal</a> -->
+      <style>
+        .prod-desc {
+          display: flex;
+          border-radius: 32px;
+          padding: 0px;
+          width: 345px;
+          margin-bottom: 17px;
+        }
+
+        /* .prod-desc .imgdiv {
+                padding-left: 26px;
+                padding-right: 26px;
+                border: 4px solid #E1C167;
+                border-top: 4px solid #E1C167;
+                border-radius: 20px;
+                background: black;
+                z-index: 1;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            } */
+        /* .prod-desc .imgdiv {
+                padding-left: 26px;
+                padding-right: 26px;
+                border: 4px solid #E1C167;
+                border-top: 4px solid #E1C167;
+                border-radius: 20px;
+                background: black;
+                z-index: 1;
+                padding-top: 14px;
+                position: absolute;
+                padding-bottom: 15px;
+                top: 25%;
+                height: 106px;
+                width: 120px;
+            } */
+
+        .prod-desc .imgdiv {
+          border: 4px solid #e1c167;
+          border-top: 4px solid #e1c167;
+          z-index: 1;
+          padding-top: 14px;
+          background: rgb(0 0 0 / 82%);
+          backdrop-filter: blur(10px);
+          border-radius: 30px;
+          position: absolute;
+          top: 10%;
+          height: 175px;
+          width: 202px;
+        }
+
+        .prod-desc .imgdiv img {
+          max-width: 240px;
+          max-height: 115px;
+        }
+
+        .prod-desc span {
+          border: 4px solid #e1c167;
+          border-radius: 50px;
+          margin-left: 30px;
+          padding-left: 49px;
+          padding-right: 108px;
+          text-align: left;
+          padding-top: 15px;
+          color: #e1c167;
+          min-width: 280px;
+        }
+
+        #amazon {
+          border: 4px solid #e1c167;
+          border-radius: 50px;
+          margin-left: 212px;
+          padding-left: 17px;
+          padding-right: 57px;
+          text-align: center;
+          margin-top: 3%;
+          padding-top: 15px;
+          color: #e1c167;
+          min-width: 196px;
+          height: 60px;
+          background: black;
+        }
+      </style>
+      <div
+        class="modal fade"
+        id="proddesc"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="proddesc"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog prodinfo" style="">
+          <div class="modal-content sharemodal" id="share" style="">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+              style="
+                position: relative;
+                width: 20px;
+                top: -30px;
+                right: -426px;
+                color: #ffd560;
+                font-size: 35px;
+              "
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body" id="mod" style="">
+              <div class="prod-desc" style="">
+                <div class="imgdiv">
+                  <img src="" alt="" id="prodpic" />
+                </div>
+                <h6 class="prodname">Shower</h6>
+                <h6 class="prodname skuid">Shower</h6>
+                <span id="amazon">
+                  <h6 class="itemname">
+                    <b class="amazonlink">amazon.in/product</b>
+                  </h6>
+                </span>
+                <button id="go">
+                  <img src="assets/img/arrow.png" alt="a" style="right: 10px" />
+                </button>
+              </div>
+
+              <div class="prod-desc" id="amzbtndiv">
+                <span id="amazon">
+                  <a
+                    href="#"
+                    id="amzlink"
+                    target="_blank"
+                    style="text-decoration: none; color: #e1c167"
+                  >
+                    <h6 class="itemname2" style="font-size: medium">
+                      Buy on Amazon
+                    </h6>
+                  </a>
+                </span>
+                <a
+                  href="#"
+                  id="amzbtn"
+                  target="_blank"
+                  style="
+                    text-decoration: none;
+                    color: #e1c167;
+                    display: contents;
+                  "
+                >
+                  <button id="go" class="amzbtn" href="#">
+                    <img src="assets/img/amazon/Amazon_icon.svg" alt="a" />
+                  </button>
+                </a>
+              </div>
+              <div class="prod-desc" style="" id="ytbtndiv">
+                <!-- <div class="imgdiv img2">
+                               <img src="" alt="" id="prodpic2">
+                            </div> -->
+                <span id="amazon">
+                  <a
+                    href="#"
+                    id="ytvid1"
+                    target="_blank"
+                    style="text-decoration: none; color: #e1c167"
+                  >
+                    <h6
+                      class="itemname2"
+                      style="
+                        max-width: 180px;
+                        margin-left: -6px;
+                        margin-top: -6px;
+                        font-size: 15px;
+                      "
+                    >
+                      Watch Product video
+                    </h6>
+                    <!-- <a href="#" id="ytvid1" target="_blank" style="text-decoration: none;color: #e1c167;"><i class="ytlink">amazon.in/shower-251</i></a><img src="assets/img/newui/arrow.svg" alt=""> -->
+                  </a>
+                </span>
+                <a
+                  href="#"
+                  id="ytbtn"
+                  target="_blank"
+                  style="
+                    text-decoration: none;
+                    color: #e1c167;
+                    display: contents;
+                  "
+                >
+                  <button id="go">
+                    <img
+                      src="assets/img/amazon/Youtube_icon.svg"
+                      alt="a"
+                    /></button
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="logosection" onclick="window.location.href = 'index.html'">
+        <img
+          src="assets/img/home/logo.png"
+          alt=""
+          style="
+            padding-top: 5px;
+            padding-left: 15px;
+            height: 40px;
+            width: auto;
+          "
+        />
+      </div>
+      <div class="left-carousel" id="leftcarousel">
+        <div class="containerl">
+          <div class="searchbox">
+            <input type="text" name="" id="filter" />
+            <img src="assets/img/Icons/search.svg" alt="" />
+          </div>
+          <button
+            class="categorybox headerBtn categoriesBtn"
+            id="cattext"
+            title="CATEGORIES"
+          >
+            CATEGORIES
+          </button>
+          <button class="categorybox headerBtn productsBtn" title="BACK">
+            BACK
+          </button>
+          <div class="containera">
+            <div class="banner-slider" id="scroll">
+              <div class="navchild" id="show"></div>
+            </div>
+            <button type="button" class="downbtn" id="nav-toggle"></button>
+            <div class="slider-right"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="rotate">
+      <img src="assets/img/rotate2.gif" alt="" class="image w-100" />
+    </div>
+    <!--div id="instructiondiv"style="position: fixed;top: 0;width: 100%;height: 100%;">
+        <img style="width: -webkit-fill-available;height: 104%;object-fit: fill;" src="assets/img/Overlay.png" alt="">
+    </div-->
+
+    <canvas id="renderCanvas"></canvas>
+
+    <!-- Js placed at end for faster loading -->
+
+    <!-- vendor js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <!-- custom js  -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/visualizer_babylon.js"></script>
+
+    <!-- mds custom js  -->
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/setup_room.js"></script>
+    <script src="assets/js/custom_main.js"></script>
+    <script src="assets/js/storefinder.js"></script>
+    <script src="assets/js/helpOverlay.js"></script>
+    <script>
+      function myFunction() {
+        url = create_copy_url();
+        document.getElementById("sharebox").value = url;
+        $(".socialicon2 img").each(function (v) {
+          $(this).attr("data-link", url);
+        });
+        $("#share2").toggleClass("share-show");
+      }
+
+      function copyfunct() {
+        /* Get the text field */
+        var copyText = document.getElementById("sharebox");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+        navigator.permissions
+          .query({ name: "clipboard-write" })
+          .then((result) => {
+            if (result.state == "granted" || result.state == "prompt") {
+              navigator.clipboard.writeText(copyText.value).then(
+                function (v) {
+                  console.log("Copied");
+                  copyText.blur();
+                },
+                function (e) {
+                  alert(
+                    "Your browser does not allow copy to clipboard! Please share via social media",
+                  );
+                },
+              );
+            }
+          });
+        /* Copy the text inside the text field */
+
+        /* Alert the copied text */
+        // alert("Copied To Clipboard: " + copyText.value);
+      }
+    </script>
+    <script type="text/javascript">
+      // Parse the URL parameter
+      function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return "";
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+      // Give the parameter a variable name
+      var dynamicContent = getParameterByName("room_id");
+
+      $(document).ready(function () {
+        // Check if the URL parameter is bathroom_large
+        if (dynamicContent == "bathroom_large") {
+          $("#bathroom_large").show();
+        }
+        // Check if the URL parameter is bathroom_contemporary
+        else if (dynamicContent == "bathroom_contemporary") {
+          $("#bathroom_contemporary").show();
+        }
+        // Check if the URL parameter is bathroom_lushgreen
+        else if (dynamicContent == "bathroom_lushgreen") {
+          $("#bathroom_lushgreen").show();
+        }
+        // Check if the URL parameter is bathroom_palmblossom
+        else if (dynamicContent == "bathroom_palmblossom") {
+          $("#bathroom_palmblossom").show();
+        }
+        // Check if the URL parameter is bathroom_modernglam
+        else if (dynamicContent == "bathroom_modernglam") {
+          $("#bathroom_modernglam").show();
+        }
+        // Check if the URL parmeter is empty or not defined, display default content
+        else {
+          $("#default-content").show();
+        }
+
+        $(".socialicon2 img").on("click", function () {
+          let d = $(this).data("variable");
+          let l = $(this).attr("data-link");
+          if (d.indexOf("facebook") >= 0) {
+            window.open(
+              "https://www.facebook.com/sharer/sharer.php?u=" +
+                encodeURIComponent(l),
+            );
+          } else if (d.indexOf("twitter") >= 0) {
+            window.open(
+              "https://twitter.com/intent/tweet?url=" +
+                encodeURIComponent(l) +
+                "&text=Products I selected&hastags=product",
+            );
+          } else if (d.indexOf("mail") >= 0) {
+            window.open(
+              "mailto:?&subject=Product&cc=&bcc=&body=Check the products I have selected this product, by visiting this link: " +
+                encodeURIComponent(l),
+            );
+          }
+        });
+      });
+    </script>
+    <script>
+      // search bar script
+      $("#filter").keyup(function () {
+        // Retrieve the input field text and reset the count to zero
+        var filter = $(this).val(),
+          count = 0;
+        // Loop through the comment list
+        $("#show a").each(function () {
+          // If the list item does not contain the text search term fade it out
+          if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+            $(this).hide();
+            // Show the list item if the search term matches and increase the count by 1
+          } else {
+            $(this).show();
+            count++;
+          }
+        });
+      });
+      window.ui_loaded = function () {
+        if (!getCookie("_shown_2_help")) {
+          helpOverlay.addLabelTo(
+            $("div.logosection"),
+            "Click on logo to go back to homepage",
+            "right",
+            1,
+            60,
+            1,
+            15,
+            4,
+            35,
+            10,
+          );
+          helpOverlay.addLabelTo(
+            $(".searchbox input"),
+            "Search for any product here",
+            "right",
+            1,
+            60,
+            1,
+            15,
+            4,
+            35,
+            -5,
+          );
+          helpOverlay.addLabelTo(
+            $(".thumbnail-image").first(),
+            "Select a category",
+            "right",
+            1,
+            60,
+            1,
+            15,
+            4,
+            -30,
+            10,
+          );
+          helpOverlay.addLabelTo(
+            $(".right-btns .rbtns").first(),
+            "View in full screen",
+            "left",
+            1,
+            60,
+            1,
+            -110,
+            5,
+            0,
+            15,
+          );
+          helpOverlay.addLabelTo(
+            $(".right-btns .rbtns").eq(1),
+            "Rotate the room",
+            "left",
+            1,
+            60,
+            1,
+            -110,
+            5,
+            0,
+            15,
+          );
+          helpOverlay.addLabelTo(
+            $(".right-btns .rbtns").eq(2),
+            "Reset camera to default",
+            "left",
+            1,
+            60,
+            1,
+            -110,
+            5,
+            0,
+            15,
+          );
+          helpOverlay.addLabelTo(
+            $(".right-btns .rbtns").eq(3),
+            "Share in Social Media",
+            "left",
+            1,
+            60,
+            1,
+            -110,
+            5,
+            0,
+            15,
+          );
+          setCookie("_shown_2_help", true);
+          setTimeout(function () {
+            helpOverlay.remove();
+          }, 7000);
+        }
+      };
+    </script>
+    <!-- Google tag (gtag.js) - Replace with your own ID -->
+
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XXXXXXXXXX");
+    </script>
+    <script>
+      gtag("event", "screen_view", {
+        app_name: "Product",
+        screen_name: "Room",
+      });
+    </script>
+    <script>
+      const trackBtns = document.querySelectorAll(".track-btn");
+
+      trackBtns.forEach((btn) => {
+        btn.addEventListener("click", function () {
+          gtag("event", "click", {
+            room_id: room_id,
+            event_category: "CTA Button--" + room_id,
+            event_label: this.getAttribute("data-variable") + "--" + room_id,
+          });
+          console.log(
+            this.getAttribute("data-variable") + " Room : " + room_id,
+          );
+        });
+      });
+    </script>
+    <script>
+      // console.log(room_id);
+      const trackBtns2 = document.querySelectorAll(".gatrack");
+
+      trackBtns2.forEach((btn) => {
+        btn.addEventListener("click", function () {
+          gtag("event", "click", {
+            room_id: room_id,
+            event_category: "product_view--" + room_id,
+            event_label: room_id + "--" + this.getAttribute("data-ga"),
+          });
+        });
+      });
+    </script>
+    <style>
+      .noibtn:hover {
+        margin-bottom: 10px;
+        margin-top: 0px !important;
+      }
+    </style>
+    <!--script>
+        setTimeout(function() {
+        $('#instructiondiv').fadeOut('fast');
+        }, 5000);
+        
+        $('body').click(function() {
+            $('#instructiondiv').fadeOut('fast');
+        
+        });
+    </script-->
+  </body>
+</html>

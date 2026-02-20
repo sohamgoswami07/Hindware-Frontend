@@ -1,0 +1,32 @@
+[
+    {
+        "default_positivity_score": -0.9,
+        "interaction_time_attribute": "updated",
+        "name": "rejected"
+    },
+    {
+        "default_positivity_score": 0.1,
+        "interaction_time_attribute": "updated",
+        "name": "visited"
+    },
+    {
+        "default_positivity_score": 0.3,
+        "interaction_time_attribute": "updated",
+        "name": "viewed"
+    },
+    {
+        "default_positivity_score": 0.5,
+        "interaction_time_attribute": "updated",
+        "name": "shortlisted"
+    },
+    {
+        "default_positivity_score": 0.9,
+        "interaction_time_attribute": "updated",
+        "name": "downloaded"
+    },
+    {
+        "default_positivity_score": 0.8,
+        "interaction_time_attribute": "updated",
+        "name": "shared"
+    }
+]

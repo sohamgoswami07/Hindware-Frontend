@@ -1,0 +1,124 @@
+{
+    "actions": {
+        "delete": [
+            {
+                "_action": "update",
+                "_ids": "category_id",
+                "_instance": {
+                    "products": null
+                },
+                "_model": "product_category",
+                "_name": "update_category"
+            }
+        ],
+        "write": [
+            {
+                "_action": "update",
+                "_ids": "category_id",
+                "_instance": {
+                    "products": null
+                },
+                "_model": "product_category",
+                "_name": "update_category"
+            }
+        ]
+    },
+    "allow_anonymous_view": true,
+    "attributes": [
+        {
+            "indexed": true,
+            "name": "product_name",
+            "required": true,
+            "type": "name"
+        },
+        {
+            "name": "sequence",
+            "type": "number"
+        },
+        {
+            "name": "category_id",
+            "refers": "parents.product_category.category_id"
+        },
+        {
+            "indexed": true,
+            "name": "category_name",
+            "refers": "parents.product_category.category_name"
+        },
+        {
+            "indexed": true,
+            "name": "sub_category_name",
+            "refers": "parents.product_category.sub_category_name"
+        },
+        {
+            "auto_updater": true,
+            "default": {
+                "args": [
+                    "category_id",
+                    "product_name"
+                ],
+                "function": "name_to_id",
+                "kwargs": {
+                    "attribute_join": "_",
+                    "case": "lower",
+                    "compressor": "to_ascii_lower",
+                    "is_unique": true,
+                    "separator": "_",
+                    "skip_empty": true,
+                    "translate": [
+                        "+?()",
+                        "____"
+                    ]
+                }
+            },
+            "id": true,
+            "name": "product_id",
+            "type": "uid"
+        },
+        {
+            "name": "application_image",
+            "type": "image"
+        },
+        {
+            "name": "glb_model",
+            "type": "file"
+        },
+        {
+            "name": "default_texture",
+            "type": "image"
+        },
+        {
+            "dict_keys": [
+                "x",
+                "y",
+                "z"
+            ],
+            "name": "default_position",
+            "type": "nested_object"
+        },
+        {
+            "default": 1,
+            "name": "default_scale",
+            "type": "number"
+        },
+        {
+            "name": "default_normal_map",
+            "type": "image"
+        },
+        {
+            "name": "default_bump_map",
+            "type": "image"
+        },
+        {
+            "name": "default_specular_map",
+            "type": "image"
+        }
+    ],
+    "expand_attributes": false,
+    "model_type": "product",
+    "name": "product",
+    "parents": [
+        "product_category"
+    ],
+    "timezone": "Asia/Kolkata",
+    "title": "Product"
+}

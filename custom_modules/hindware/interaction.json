@@ -1,0 +1,212 @@
+{
+    "attributes": [
+        {
+            "default": "viewed",
+            "indexed": true,
+            "name": "stage",
+            "refers": "parents.interaction_stage.name"
+        },
+        {
+            "indexed": true,
+            "name": "product_id",
+            "refers": "parents.product.product_id",
+            "required": false
+        },
+        {
+            "indexed": true,
+            "name": "product_name",
+            "type": "category"
+        },
+        {
+            "name": "application_image",
+            "type": "image"
+        },
+        {
+            "name": "product_price",
+            "type": "text"
+        },
+        {
+            "default": {
+                "args": [
+                    "product",
+                    "product_id",
+                    "category_id"
+                ],
+                "function": "get_from_model"
+            },
+            "name": "category_id",
+            "refers": "parents.product_category.category_id",
+            "required": false
+        },
+        {
+            "indexed": true,
+            "name": "category_name",
+            "type": "category"
+        },
+        {
+            "indexed": true,
+            "name": "customer_id",
+            "refers": "parents.customer.customer_id"
+        },
+        {
+            "default": {
+                "args": [
+                    "customer",
+                    "customer_id",
+                    "email"
+                ],
+                "function": "get_from_model"
+            },
+            "force_update": "customer_id",
+            "indexed": true,
+            "name": "customer_email",
+            "type": "email"
+        },
+        {
+            "default": {
+                "args": [
+                    "customer",
+                    "customer_id",
+                    "phone_number"
+                ],
+                "function": "get_from_model"
+            },
+            "force_update": "customer_id",
+            "indexed": true,
+            "name": "phone_number",
+            "type": "mobile_number"
+        },
+        {
+            "default": {
+                "args": [
+                    "customer",
+                    "customer_id",
+                    "state"
+                ],
+                "function": "get_from_model"
+            },
+            "force_update": "customer_id",
+            "indexed": true,
+            "name": "state",
+            "type": "state"
+        },
+        {
+            "default": {
+                "args": [
+                    "customer",
+                    "customer_id",
+                    "city"
+                ],
+                "function": "get_from_model"
+            },
+            "force_update": "customer_id",
+            "indexed": true,
+            "name": "city",
+            "type": "city"
+        },
+        {
+            "default": {
+                "args": [
+                    "customer",
+                    "customer_id",
+                    "utm_source"
+                ],
+                "function": "get_from_model"
+            },
+            "force_update": "customer_id",
+            "indexed": true,
+            "name": "utm_source",
+            "type": "category"
+        },
+        {
+            "default": {
+                "args": [
+                    "customer",
+                    "customer_id",
+                    "utm_medium"
+                ],
+                "function": "get_from_model"
+            },
+            "force_update": "customer_id",
+            "indexed": true,
+            "name": "utm_medium",
+            "type": "category"
+        },
+        {
+            "name": "room_id",
+            "type": "uid"
+        },
+        {
+            "default": {
+                "args": [
+                    "room_id"
+                ],
+                "function": "attribute_mapper",
+                "kwargs": {
+                    "bathroom_contenporary": "Contemporary",
+                    "bathroom_french": "Modern Glam",
+                    "bathroom_golden": "Palm Blossom",
+                    "bathroom_large": "Neo-Classical",
+                    "bathroom_lushgreen": "Lush Green"
+                }
+            },
+            "indexed": true,
+            "name": "room_name",
+            "type": "category"
+        },
+        {
+            "auto_updater": true,
+            "default": {
+                "function": "now"
+            },
+            "name": "created",
+            "type": "timestamp"
+        },
+        {
+            "auto_updater": true,
+            "default": {
+                "function": "now"
+            },
+            "force_update": true,
+            "name": "updated",
+            "type": "timestamp"
+        },
+        {
+            "auto_updater": true,
+            "default": {
+                "args": [
+                    "stage",
+                    "customer_id",
+                    "product_name",
+                    "category_name",
+                    "room_id"
+                ],
+                "function": "make_uuid3"
+            },
+            "id": true,
+            "name": "interaction_id",
+            "type": "uid"
+        }
+    ],
+    "expand_attributes": true,
+    "model_type": "interaction",
+    "name": "interaction",
+    "parents": [
+        "interaction_stage",
+        "customer",
+        "product",
+        "product_category"
+    ],
+    "permissions": [
+        {
+            "delete_access": true,
+            "delete_children_only": true,
+            "read_access": true,
+            "read_children_only": true,
+            "role": "customer",
+            "write_access": true,
+            "write_children_only": true
+        }
+    ],
+    "timezone": "Asia/Kolkata"
+}

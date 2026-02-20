@@ -1,0 +1,198 @@
+[
+    {
+        "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/category+icons/shower.svg",
+        "category_id": "shower",
+        "category_name": "Shower",
+        "products": [
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/shower/Body-showeR.png",
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default_scale": 1,
+                "product_id": "shower_body_shower",
+                "product_name": "Body Shower"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/shower/Cascade-Shower.png",
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default_scale": 1,
+                "product_id": "shower_cascade_shower",
+                "product_name": "Cascade Shower"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/shower/F160004-Shower.png",
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default_scale": 1,
+                "product_id": "shower_f160004_shower",
+                "product_name": "F160004 Shower"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/shower/Rain-Forest_F160075.png",
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default_scale": 1,
+                "product_id": "shower_rain_forest_f160075",
+                "product_name": "Rain Forest F160075"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/shower/Rain-Shower.png",
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default_scale": 1,
+                "product_id": "shower_rain_shower",
+                "product_name": "Rain Shower"
+            }
+        ]
+    },
+    {
+        "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/category+icons/water-faucet.svg",
+        "category_id": "faucet",
+        "category_name": "Faucet",
+        "products": [
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/faucet+/Armada-SLBM-Tall.png",
+                "category_id": "faucet",
+                "category_name": "Faucet",
+                "default_scale": 1,
+                "product_id": "faucet_armada-slbm-tall",
+                "product_name": "Armada-SLBM-Tall"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/faucet+/Edge_SLBM-Tall.png",
+                "category_id": "faucet",
+                "category_name": "Faucet",
+                "default_scale": 1,
+                "product_id": "faucet_edge_slbm-tall",
+                "product_name": "Edge_SLBM-Tall"
+            }
+        ]
+    },
+    {
+        "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/category+icons/wash-basin.svg",
+        "category_id": "wash_basin",
+        "category_name": "wash basin",
+        "products": [
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/sink/WB-Over-Counter-Amazon-91094-Model.png",
+                "category_id": "wash_basin",
+                "category_name": "wash basin",
+                "default_scale": 1,
+                "product_id": "wash_basin_wb-over-counter-amazon-91094-model",
+                "product_name": "WB-Over-Counter-Amazon-91094-Model"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/sink/WB+OVER+COUNTER+ORNATE.png",
+                "category_id": "wash_basin",
+                "category_name": "wash basin",
+                "default_scale": 1,
+                "product_id": "wash_basin_wb_over_counter_ornate",
+                "product_name": "WB OVER COUNTER ORNATE"
+            }
+        ]
+    },
+    {
+        "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/category+icons/commode.svg",
+        "category_id": "water_closet",
+        "category_name": "water Closet",
+        "products": [
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/water+closet/E-Clenz-WC.png",
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default_scale": 1,
+                "product_id": "water_closet_e-clenz-wc",
+                "product_name": "E-Clenz-WC"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/water+closet/Element-Plus-WC.png",
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default_scale": 1,
+                "product_id": "water_closet_element-plus-wc",
+                "product_name": "Element-Plus-WC"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/water+closet/Margo-R.png",
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default_scale": 1,
+                "product_id": "water_closet_margo-r",
+                "product_name": "Margo-R"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/water+closet/Automate2.png",
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default_scale": 1,
+                "product_id": "water_closet_automate2",
+                "product_name": "Automate2"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/water+closet/EWC+WM+TANKLESS+S2.png",
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default_scale": 1,
+                "product_id": "water_closet_ewc_wm_tankless_s2",
+                "product_name": "EWC WM TANKLESS S2"
+            }
+        ]
+    },
+    {
+        "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/category+icons/floor+tile.svg",
+        "category_id": "flooring",
+        "category_name": "Flooring",
+        "products": [
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/floor+tile/DAWN+TAN.png",
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default_scale": 1,
+                "product_id": "flooring_dawn_tan",
+                "product_name": "DAWN TAN"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/floor+tile/ECSTASY+WHITE.png",
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default_scale": 1,
+                "product_id": "flooring_ecstasy_white",
+                "product_name": "ECSTASY WHITE"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/floor+tile/MERCURY+GREY.png",
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default_scale": 1,
+                "product_id": "flooring_mercury_grey",
+                "product_name": "MERCURY GREY"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/floor+tile/SPACE+BLACK.png",
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default_scale": 1,
+                "product_id": "flooring_space_black",
+                "product_name": "SPACE BLACK"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/floor+tile/RIO+GOLD.png",
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default_scale": 1,
+                "product_id": "flooring_rio_gold",
+                "product_name": "RIO GOLD"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/floor+tile/TRENDY+WHITE.png",
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default_scale": 1,
+                "product_id": "flooring_trendy_white",
+                "product_name": "TRENDY WHITE"
+            }
+        ]
+    }
+  
+]

@@ -1,0 +1,73 @@
+{
+    "attributes": [
+        {
+            "name": "surface_name",
+            "required": true,
+            "type": "name"
+        },
+        {
+            "name": "product_id",
+            "refers": "parents.product.product_id",
+            "required": false
+        },
+        {
+            "name": "product_name",
+            "refers": "parents.product.product_name"
+        },
+        {
+            "name": "category_id",
+            "refers": "parents.product.category_id"
+        },
+        {
+            "name": "category_name",
+            "refers": "parents.product.category_name"
+        },
+        {
+            "name": "sub_category_name",
+            "refers": "parents.product.sub_category_name"
+        },
+        {
+            "name": "room_id",
+            "refers": "parents.room.room_id"
+        },
+        {
+            "name": "room_name",
+            "refers": "parents.room.room_name"
+        },
+        {
+            "auto_updater": true,
+            "default": {
+                "args": [
+                    "room_id",
+                    "surface_name"
+                ],
+                "function": "name_to_id",
+                "kwargs": {
+                    "attribute_join": "_",
+                    "case": "lower",
+                    "compressor": "to_ascii_lower",
+                    "is_unique": true,
+                    "separator": "_",
+                    "skip_empty": true,
+                    "translate": [
+                        "+?()&",
+                        "_____"
+                    ]
+                }
+            },
+            "id": true,
+            "name": "surface_id",
+            "type": "uid"
+        },
+        {
+            "name": "thumbnail",
+            "type": "image"
+        }
+    ],
+    "name": "surface",
+    "parents": [
+        "room",
+        "product"
+    ],
+    "timezone": "Asia/Kolkata"
+}

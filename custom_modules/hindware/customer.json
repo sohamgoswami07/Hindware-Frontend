@@ -1,0 +1,190 @@
+{
+    "allow_anonymous_view": false,
+    "attributes": [
+        {
+            "indexed": true,
+            "name": "name",
+            "required": true
+        },
+        {
+            "name": "email",
+            "required": true,
+            "type": "email"
+        },
+        {
+            "name": "phone_number",
+            "type": "mobile_number"
+        },
+        {
+            "indexed": true,
+            "name": "state",
+            "type": "state"
+        },
+        {
+            "indexed": true,
+            "name": "city",
+            "type": "city"
+        },
+        {
+            "default": "India",
+            "name": "country",
+            "type": "country"
+        },
+        {
+            "auto_updater": true,
+            "default": {
+                "args": [
+                    "interaction",
+                    "interaction_id",
+                    "count"
+                ],
+                "function": "pivot_from_child",
+                "kwargs": {
+                    "stage": "viewed"
+                }
+            },
+            "name": "view",
+            "type": "number"
+        },
+        {
+            "auto_updater": true,
+            "default": {
+                "args": [
+                    "interaction",
+                    "interaction_id",
+                    "count"
+                ],
+                "function": "pivot_from_child",
+                "kwargs": {
+                    "_fresh": true,
+                    "stage": "shortlisted"
+                }
+            },
+            "name": "shortlist",
+            "type": "number"
+        },
+        {
+            "default": 0,
+            "indexed": false,
+            "name": "share",
+            "type": "number"
+        },
+        {
+            "default": 0,
+            "indexed": false,
+            "name": "download",
+            "type": "number"
+        },
+        {
+            "auto_updater": true,
+            "default": {
+                "function": "now"
+            },
+            "name": "created",
+            "type": "timestamp"
+        },
+        {
+            "auto_updater": true,
+            "default": {
+                "function": "now"
+            },
+            "force_update": true,
+            "name": "updated",
+            "type": "timestamp"
+        },
+        {
+            "auto_updater": true,
+            "default": {
+                "args": [
+                    "updated",
+                    "created"
+                ],
+                "function": "time_diff",
+                "kwargs": {
+                    "units": "minutes"
+                }
+            },
+            "force_update": true,
+            "name": "duration",
+            "type": "number"
+        },
+        {
+            "name": "notes",
+            "type": "description"
+        },
+        {
+            "default": {
+                "args": [
+                    "name",
+                    "email",
+                    "created"
+                ],
+                "function": "make_uuid3"
+            },
+            "id": true,
+            "name": "customer_id",
+            "type": "uid"
+        },
+        {
+            "indexed": true,
+            "name": "utm_source",
+            "type": "category"
+        },
+        {
+            "indexed": true,
+            "name": "utm_medium",
+            "type": "category"
+        },
+        {
+            "indexed": true,
+            "name": "utm_campaign",
+            "type": "category"
+        },
+        {
+            "indexed": true,
+            "name": "utm_term",
+            "type": "category"
+        },
+        {
+            "indexed": true,
+            "name": "utm_term",
+            "type": "category"
+        },
+        {
+            "indexed": true,
+            "name": "browser",
+            "type": "category"
+        },
+        {
+            "indexed": true,
+            "name": "os",
+            "type": "category"
+        },
+        {
+            "indexed": true,
+            "name": "device_type",
+            "type": "category"
+        },
+        {
+            "default": {
+                "function": "make_view_id",
+                "kwargs": {
+                    "make_unique": false
+                }
+            },
+            "name": "password",
+            "type": "password"
+        },
+        {
+            "default": true,
+            "name": "validated",
+            "type": "bool"
+        }
+    ],
+    "expand_attributes": true,
+    "has_login": true,
+    "model_type": "customer",
+    "parents": [],
+    "permissions": [],
+    "timezone": "Asia/Kolkata"
+}
