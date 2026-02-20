@@ -74,7 +74,7 @@ Then open [http://localhost:8080](http://localhost:8080) in your browser.
 
 ## Live Preview
 
-[https://sohamgoswami07.github.io/Hindware-Frontend/](https://sohamgoswami07.github.io/Hindware-Frontend/)
+[Hindware 3D BathSpace Studio](https://sohamgoswami07.github.io/Hindware-3D-BathSpace-Studio/)
 
 ## 📝 My Role
 
