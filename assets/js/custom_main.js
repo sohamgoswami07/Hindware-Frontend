@@ -41,7 +41,7 @@ const setProducts = (category)=>{
                     <div class="thumbnail-image thumbnail-image11 ${(product.product_price != 'none' || product.product_price != 'none') ? "thumbnail-image12" : "noibtn"}">
                         <div class="ibtn" style="${(product.product_price != 'none' || product.product_price != 'none') ? "" : "display:none;"}">
                             <s  data-toggle="modal" data-target="#proddesc"  data-price="${product.product_price}" data-whatever="${product.product_name}" data-sku="${product.product_sku}" data-ytlink="${product.product_yt}" data-amzlink="${product.product_amazon}" data-prodimg="${product.application_image}">
-                                <img src="../assets/img/newui/Group.svg" alt="slider-img">
+                                <img src="assets/img/newui/Group.svg" alt="slider-img">
                             </s>
                         </div>
                         <div class="thumbImg">

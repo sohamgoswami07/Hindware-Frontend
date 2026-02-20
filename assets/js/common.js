@@ -1,6 +1,9 @@
 let opened_filters = [];
 let opened_modal = [];
-let dave_url = "https://api.example.com";
+// ⚠️  CONFIGURATION REQUIRED: Replace the empty string below with your actual backend API base URL.
+// Example: let dave_url = "https://your-api.yourdomain.com";
+// Leaving it empty enables Demo Mode — the app will function locally without a backend.
+let dave_url = "";
 let enterprise_id = "demo_enterprise";
 let signup_api_key = "DEMO_SIGNUP_API_KEY";
 // device detection

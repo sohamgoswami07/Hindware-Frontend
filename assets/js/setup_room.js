@@ -107,10 +107,16 @@ function post_interaction(params, stage, rid, callbackFunc, errorFunc) {
         selection[params.category_id] = params;
         selected_meshes[params.category_id] = params.mesh_id;
     }
-    ajaxRequestWithData(
-        dave_url + "/object/interaction",
-        'POST', HEADERS, JSON.stringify(params), callbackFunc, errorFunc
-    )
+    // Only POST to backend if a real API URL is configured
+    if ( dave_url ) {
+        ajaxRequestWithData(
+            dave_url + "/object/interaction",
+            'POST', HEADERS, JSON.stringify(params), callbackFunc, errorFunc
+        );
+    } else {
+        console.info("[Demo Mode] post_interaction skipped — no API URL configured.", params);
+        if ( callbackFunc && typeof(callbackFunc) == 'function' ) { callbackFunc({}); }
+    }
     if ( typeof(gtag) != 'undefined' ) {
         gtag('event', 'click', {
             'room_id': room_id,

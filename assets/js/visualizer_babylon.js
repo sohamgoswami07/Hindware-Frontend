@@ -492,7 +492,7 @@ window.initFunction = async function(elementId, room_id, onLoadFunc) {
     window.engine = await asyncEngineCreation();
     if (!engine) throw 'engine should not be null.';
     p.startRenderLoop(engine, canvas);
-    fetch('/assets/json/room_maps.json').then((response) => response.json()).then(function(data) {
+    fetch('assets/json/room_maps.json').then((response) => response.json()).then(function(data) {
         window.scene = p.load_room(room_id, data[room_id], onLoadFunc);
     });
     return p;
