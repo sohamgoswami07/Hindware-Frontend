@@ -1,0 +1,1393 @@
+[
+    {
+        "application_image": "/assets/img/Icons/shower.svg",
+        "category_id": "shower",
+        "category_name": "Shower",
+        "default": "Cascade_Shower_FINAL_1",
+        "products": [
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/shower/Cascade-Shower.png",
+                "available_in": [
+                    "bathroom_large",
+                    "bathroom_contemporary"
+                ],
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default": true,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "Cascade_Shower_FINAL_1",
+                "product_amazon": "coming soon..",
+                "product_id": "shower_cascade_shower",
+                "product_name": "Cascade Shower",
+                "product_price": "39,990",
+                "product_sku": "F160034CP",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/shower/Rain-Forest_F160075.png",
+                "available_in": [
+                    "bathroom_large",
+                    "bathroom_contemporary"
+                ],
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "Rain_Forest_F160075_1",
+                "product_amazon": "coming soon..",
+                "product_id": "shower_rain_forest_f160075",
+                "product_name": "Rain Forest",
+                "product_price": "19,990",
+                "product_sku": "F160075CP",
+                "product_yt": "https://www.youtube.com/watch?v=_9_Wds2tnJY"
+            },
+            {
+                "application_image": "assets/img/Cascade_Shower.webp",
+                "available_in": [
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "Body_Cascade_Shower_Final",
+                "product_amazon": "coming soon..",
+                "product_id": "Body Cascade Shower Final",
+                "product_name": "Cascade Shower", 
+                "product_price": "39,990",
+                "product_sku": "F160034CP",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Rain_Spa.webp",
+                "available_in": [
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "Rain_Spa_Combination",
+                "product_amazon": "coming soon..",
+                "product_id": "Rain Spa Combination",
+                "product_name": "Rain Spa",
+                "product_price": "1,49,990",
+                "product_sku": "F160065CP",
+                "product_yt": "https://www.youtube.com/watch?v=e73TsGeaJDU"
+            },
+            {
+                "application_image": "assets/img/Room 4/Shower/f160123.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "f160123",
+                "product_amazon": "coming soon..",
+                "product_id": "f160123",
+                "product_name": "SF Overhead Shower White",
+                "product_price": "2,500",
+                "product_sku": "F160123",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 4/Shower/f160124.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "f160124",
+                "product_amazon": "coming soon..",
+                "product_id": "f160124",
+                "product_name": "SF Overhead Shower Black",
+                "product_price": "2,500",
+                "product_sku": "F160124",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 4/Shower/f160125.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "f160125",
+                "product_amazon": "coming soon..",
+                "product_id": "f160125",
+                "product_name": "SF Overhead Shower Grey",
+                "product_price": "2,500",
+                "product_sku": "F160125",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 4/Shower/f160126.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "f160126",
+                "product_amazon": "coming soon..",
+                "product_id": "f160126",
+                "product_name": "SF Overhead Shower Dark Grey",
+                "product_price": "2,500",
+                "product_sku": "F160126",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 4/Shower/rain_forest_f160075.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "f160075",
+                "product_amazon": "https://www.amazon.in/dp/B075TM11WQ",
+                "product_id": "rain_forest_f160075",
+                "product_name": "Rain Forest Shower",
+                "product_price": "19,990",
+                "product_sku": "F160075CP",
+                "product_yt": "https://www.youtube.com/watch?v=_9_Wds2tnJY"
+            },
+            {
+                "application_image": "assets/img/Room 5/Shower/Rain Shower rose gold.png",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "rain_shower_rose_gold",
+                "product_amazon": "coming soon..",
+                "product_id": "rain_shower_rose_gold",
+                "product_name": "Rain Shower Rose Gold",
+                "product_price": "7,990",
+                "product_sku": "F160149RGD",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Shower/Rain shower black.png",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "rain_shower_black",
+                "product_amazon": "coming soon..",
+                "product_id": "rain_shower_black",
+                "product_name": "Rain Shower Black",
+                "product_price": "7,990",
+                "product_sku": "F160149GRT",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Shower/Rain shower gold.png",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "shower",
+                "category_name": "Shower",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "rain_shower_gold",
+                "product_amazon": "coming soon..",
+                "product_id": "rain_shower_gold",
+                "product_name": "Rain Shower Gold",
+                "product_price": "7,990",
+                "product_sku": "F160149PGD",
+                "product_yt": "coming soon.."
+            }
+        ]
+    },
+    {
+        "application_image": "/assets/img/Icons/Faucet.svg",
+        "category_id": "faucet",
+        "category_name": "Faucet",
+        "default": "Edge_SLBM_Tall",
+        "products": [
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/faucet+/Armada-SLBM-Tall.png",
+                "available_in": [
+                    "bathroom_large",
+                    "bathroom_contemporary"
+                ],
+                "category_id": "faucet",
+                "category_name": "Faucet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Armada_SLBM_Tall",
+                "product_amazon": "coming soon..",
+                "product_id": "faucet_armada-slbm-tall",
+                "product_name": "Armada SLBM Tall",
+                "product_price": "6990",
+                "product_sku": "F260014CP",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/faucet+/Edge_SLBM-Tall.png",
+                "available_in": [
+                    "bathroom_large",
+                    "bathroom_contemporary"
+                ],
+                "category_id": "faucet",
+                "category_name": "Faucet",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Edge_SLBM_Tall",
+                "product_amazon": "coming soon..",
+                "product_id": "faucet_edge_slbm-tall",
+                "product_name": "Edge SLBM Tall",
+                "product_price": "6300",
+                "product_sku": "F410012CP",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/avior.png",
+                "available_in": [
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "faucet",
+                "category_name": "Faucet",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Avior_SLBM",
+                "product_amazon": "coming soon..",
+                "product_id": "Avior_SLBM-tassll",
+                "product_name": "Avior SLBM",
+                "product_price": "4800",
+                "product_sku": "F520011CP",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/faucet+/Edge_SLBM-Tall.png",
+                "available_in": [
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "faucet",
+                "category_name": "Faucet",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Edge_SLBM_Tall",
+                "product_amazon": "coming soon..",
+                "product_id": "faucet_edge_slbmsd-tall",
+                "product_name": "Edge SLBM Tall",
+                "product_price": "6300",
+                "product_sku": "F410012CP",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Sensortap.webp",
+                "available_in": [
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "faucet",
+                "category_name": "Faucet",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "F240005_sensor_tap_Immacula",
+                "product_amazon": "coming soon..",
+                "product_id": "fausqcet_edge_slbm-tall",
+                "product_name": "Sensor Tap Immacula",
+                "product_price": "10500",
+                "product_sku": "F240005CP",
+                "product_yt": "https://www.youtube.com/watch?v=T378ZcRXcUc&t=2s"
+            },
+            {
+                "application_image": "assets/img/Room 4/Faucet/Edge_slbm_Tall.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "Faucet",
+                "category_name": "Faucet",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "edge_slbm_tall",
+                "product_amazon": "https://www.amazon.in/dp/B0BCQRJHBB",
+                "product_id": "edge_slbm_tall",
+                "product_name": "Edge SLBM Tall",
+                "product_price": "6,300",
+                "product_sku": "F410012CP",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Faucet/Edge_SLBM_Gold.png",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "faucet",
+                "category_name": "Faucet",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "Edge_SLBM_Tall_gold",
+                "product_amazon": "coming soon..",
+                "product_id": "edge_slbm_tall_gold",
+                "product_name": "Edge SLBM Tall Gold",
+                "product_price": "8,990",
+                "product_sku": "F410012PGD",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Faucet/Edge_SLBM_Rose_Black.png",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "faucet",
+                "category_name": "Faucet",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "Edge_SLBM_Tall_black",
+                "product_amazon": "coming soon..",
+                "product_id": "edge_slbm_tall_black",
+                "product_name": "Edge SLBM Tall Black",
+                "product_price": "12,500",
+                "product_sku": "F410012GRT",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Faucet/Edge_SLBM_Rose_Gold.png",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "faucet",
+                "category_name": "Faucet",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "Edge_SLBM_Tall_rose_gold",
+                "product_amazon": "coming soon..",
+                "product_id": "edge_slbm_tall_rose_gold",
+                "product_name": "Edge SLBM Tall Rose Gold",
+                "product_price": "9,750",
+                "product_sku": "F410012RGD",
+                "product_yt": "coming soon.."
+            }
+        ]
+    },
+    {
+        "application_image": "/assets/img/Icons/wash-basin.svg",
+        "category_id": "wash_basin",
+        "category_name": "wash basin",
+        "default": "Over_Counter_Amazon_91094_Model",
+        "products": [
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/sink/WB-Over-Counter-Amazon-91094-Model.png",
+                "available_in": [
+                    "bathroom_large",
+                    "bathroom_contemporary"
+                ],
+                "category_id": "wash_basin",
+                "category_name": "wash basin",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Over_Counter_Amazon_91094_Model",
+                "product_amazon": "coming soon..",
+                "product_id": "wash_basin_wb-over-counter-amazon-91094-model",
+                "product_name": "Over Counter Amazon",
+                "product_price": "6,090",
+                "product_sku": "91094",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Essence_WB.webp",
+                "available_in": [
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "wash_basin",
+                "category_name": "wash basin",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Essence_WB_final",
+                "product_amazon": "coming soon..",
+                "product_id": "Essence_WB_finalr_ornate",
+                "product_name": "Essence WB",
+                "product_price": "5,990",
+                "product_sku": "91046",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/pearl.webp",
+                "available_in": [
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "wash_basin",
+                "category_name": "wash basin",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "pearl_over_counter_basin",
+                "product_amazon": "coming soon..",
+                "product_id": "pearl_over_counter_basiner_ornate",
+                "product_name": "Pearl Over Counter",
+                "product_price": "7,200",
+                "product_sku": "91088",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/easyclean.webp",
+                "available_in": [
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "wash_basin",
+                "category_name": "wash basin",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "self_clean_final",
+                "product_amazon": "coming soon..",
+                "product_id": "self_ clean final",
+                "product_name": "Easy clean",
+                "product_price": "15,610",
+                "product_sku": "91215",
+                "product_yt": "https://www.youtube.com/watch?v=myYNNYoKtQ0&t=2s"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/sink/WB+OVER+COUNTER+ORNATE.png",
+                "available_in": [
+                    "bathroom_large",
+                    "bathroom_contemporary"
+                ],
+                "category_id": "wash_basin",
+                "category_name": "wash basin",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "WB_OVER_COUNTER_ORNATE",
+                "product_amazon": "coming soon..",
+                "product_id": "wash_basin_wb_over_counter_ornate",
+                "product_name": "Over Counter Ornate",
+                "product_price": "8,560",
+                "product_sku": "91218",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 4/Sink/Fonte.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "wash_basin",
+                "category_name": "wash basin",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "fonte",
+                "product_amazon": "https://www.amazon.in/dp/B0BF5KJD8D",
+                "product_id": "fonte",
+                "product_name": "Fonte",
+                "product_price": "13,170",
+                "product_sku": "91043",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 4/Sink/Marvel.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "wash_basin",
+                "category_name": "wash basin",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "marvel",
+                "product_amazon": "https://www.amazon.in/dp/B0BF5JSLNN",
+                "product_id": "marvel",
+                "product_name": "Marvel",
+                "product_price": "9,630",
+                "product_sku": "91090",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Sink/Amazon-star-white.png",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "wash_basin",
+                "category_name": "wash basin",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "Over_Counter_Amazon_Star_White",
+                "product_amazon": "https://www.amazon.in/dp/B0BF5MV23R",
+                "product_id": "over_counter_amazon_star_white",
+                "product_name": "Amazon Star White",
+                "product_price": "6,090",
+                "product_sku": "91094",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Sink/Amazon_WB_91049_Black.png",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "wash_basin",
+                "category_name": "wash basin",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "Over_Counter_Amazon_Mate_Black",
+                "product_amazon": "https://www.amazon.in/dp/B0BF5K5BT8",
+                "product_id": "over_counter_amazon_mate_black",
+                "product_name": "Amazon Mate Black",
+                "product_price": "6,610",
+                "product_sku": "91094",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Sink/WB-Amazon-White-Matte.png",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "wash_basin",
+                "category_name": "wash basin",
+                "default": false,
+                "default_scale": 1,
+                "glossy": true,
+                "mesh_id": "Over_Counter_Amazon_Mate_White",
+                "product_amazon": "https://www.amazon.in/dp/B0BF5KM6XH",
+                "product_id": "over_counter_amazon_mate_white",
+                "product_name": "Amazon Mate White",
+                "product_price": "6,610",
+                "product_sku": "91094",
+                "product_yt": "coming soon.."
+            }
+        ]
+    },
+    {
+        "application_image": "/assets/img/Icons/commode.svg",
+        "category_id": "water_closet",
+        "category_name": "water Closet",
+        "default": "Automate2_1",
+        "products": [
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/water+closet/E-Clenz-WC.png",
+                "available_in": [
+                    "bathroom_large",
+                    "bathroom_contemporary"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "E_Clenz_WC_final",
+                "product_amazon": "coming soon..",
+                "product_id": "water_closet_e-clenz-wc",
+                "product_name": "E-Clenz",
+                "product_price": "43710",
+                "product_sku": "92592",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/water+closet/Element-Plus-WC.png",
+                "available_in": [
+                    "bathroom_large",
+                    "bathroom_contemporary"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Element_Plus_WC_01",
+                "product_amazon": "coming soon..",
+                "product_id": "water_closet_element-plus-wc",
+                "product_name": "Element Plus",
+                "product_price": "19570",
+                "product_sku": "92566",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/water+closet/Margo-R.png",
+                "available_in": [
+                    "bathroom_large",
+                    "bathroom_contemporary",
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Margo_R_final",
+                "product_amazon": "coming soon..",
+                "product_id": "water_closet_margo-r",
+                "product_name": "Margo-R",
+                "product_price": "17750",
+                "product_sku": "92599",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/water+closet/Automate2.png",
+                "available_in": [
+                    "bathroom_large",
+                    "bathroom_contemporary"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Automate2_1",
+                "product_amazon": "coming soon..",
+                "product_id": "water_closet_automate2",
+                "product_name": "Automate",
+                "product_price": "239890",
+                "product_sku": "92522",
+                "product_yt": "https://www.youtube.com/watch?v=h7GFx4G0AzM&t=34s"
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/water+closet/EWC+WM+TANKLESS+S2.png",
+                "available_in": [
+                    "bathroom_large",
+                    "bathroom_contemporary",
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "EWC_WM_TANKLESS_S2",
+                "product_amazon": "coming soon..",
+                "product_id": "water_closet_ewc_wm_tankless_s2",
+                "product_name": "EWC Tankless S2",
+                "product_price": "26990",
+                "product_sku": "92593",
+                "product_yt": "https://www.youtube.com/watch?v=q_CJySN6OWE&t=8s"
+            },
+            {
+                "application_image": "assets/img/essneo.webp",
+                "available_in": [
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Essence_Neo_WM_92559_final",
+                "product_amazon": "coming soon..",
+                "product_id": "water_cwdwdwldwoswedt_ewc_wm_tankless_s2",
+                "product_name": "Essence Neo ",
+                "product_price": "17600",
+                "product_sku": "92593",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/cora.webp",
+                "available_in": [
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "cora_vortex",
+                "product_amazon": "coming soon..",
+                "product_id": "water_closedt_ewc_wm_tankless_s2",
+                "product_name": "Cora Vortex",
+                "product_price": "21600",
+                "product_sku": "92593",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 4/Water Closet/Agnese_WM.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "e_clenz",
+                "product_amazon": "coming soon..",
+                "product_id": "e_clenz",
+                "product_name": "AGNESE",
+                "product_price": "20,380",
+                "product_sku": "92572",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 4/Water Closet/Aspiro.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "aspiro",
+                "product_amazon": "coming soon..",
+                "product_id": "aspiro",
+                "product_name": "Aspiro",
+                "product_price": "14,430",
+                "product_sku": "20126",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 4/Water Closet/Element_Plus_WC.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "element_plus_wc",
+                "product_amazon": "coming soon..",
+                "product_id": "element_plus_wc",
+                "product_name": "Element Plus",
+                "product_price": "19,570",
+                "product_sku": "92566",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 4/Water Closet/s2.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "ewc_wm_tankless_s2",
+                "product_amazon": "coming soon..",
+                "product_id": "ewc_wm_tankless_s2",
+                "product_name": "Tankless S2 Square",
+                "product_price": "26,990",
+                "product_sku": "92593",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 4/Water Closet/Starc.png",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "starc",
+                "product_amazon": "coming soon..",
+                "product_id": "starc",
+                "product_name": "STARC",
+                "product_price": "18,410",
+                "product_sku": "92590",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Water Closet/Element_Plus_Star_White.png",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Element_Plus_Star_White",
+                "product_amazon": "coming soon..",
+                "product_id": "element_plus_star_white",
+                "product_name": "Element Plus Star White",
+                "product_price": "19,570",
+                "product_sku": "92566",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Water Closet/EWC-Element-Black-Matte.png",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Element_Plus_Matte_Black",
+                "product_amazon": "coming soon..",
+                "product_id": "element_plus_matte_black",
+                "product_name": "Element Plus Matte Black",
+                "product_price": "19,570",
+                "product_sku": "92566",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Water Closet/EWC-Element-White-Matte.png",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "water_closet",
+                "category_name": "water Closet",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Element_Plus_Matte_White",
+                "product_amazon": "coming soon..",
+                "product_id": "element_plus_matte_white",
+                "product_name": "Element Plus Matte White",
+                "product_price": "19,570",
+                "product_sku": "92566",
+                "product_yt": "coming soon.."
+            }
+        ]
+    },
+    {
+        "application_image": "/assets/img/Icons/Tiles1.svg",
+        "category_id": "flooring",
+        "category_name": "Flooring",
+        "products": [
+            {
+                "application_image": "assets/img/thumbnails/ARMANO-BEIGE.jpg",
+                "available_in": [
+                    "bathroom_large"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Armano_Beige",
+                "product_amazon": "coming soon..",
+                "product_id": "Armano_Beige",
+                "product_name": "Armano Beige",
+                "product_price": "none",
+                "product_sku": "601116",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/thumbnails/MARCELLUS-BEIGE.jpg",
+                "available_in": [
+                    "bathroom_large"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Marcellus_Beige",
+                "product_amazon": "coming soon..",
+                "product_id": "Marcellus_Beige",
+                "product_name": "Marcellus Beige",
+                "product_price": "none",
+                "product_sku": "601114",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/thumbnails/OYESTER-BROWN.jpg",
+                "available_in": [
+                    "bathroom_large"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Oyster_brown",
+                "product_amazon": "coming soon..",
+                "product_id": "Oyster_brown",
+                "product_name": "Oyester Brown",
+                "product_price": "none",
+                "product_sku": "601130",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/thumbnails/PEARL-GREY-R1.jpg",
+                "available_in": [
+                    "bathroom_large"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Pearl_Grey",
+                "product_amazon": "coming soon..",
+                "product_id": "Pearl_Grey",
+                "product_name": "Pearl Grey",
+                "product_price": "none",
+                "product_sku": "601650",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/thumbnails/option_1/LOCORUST-GREY.jpg",
+                "available_in": [
+                    "bathroom_contemporary"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Flooring_Locorust_Grey",
+                "product_amazon": "coming soon..",
+                "product_id": "Flooring_Locorust_Grey",
+                "product_name": "Locorust Grey",
+                "product_price": "none",
+                "product_sku": "601125",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "https://general-iamdave-mumbai.s3.ap-south-1.amazonaws.com/hindware/product+images/floor+tile/Calacutta-Natural-f2.jpg",
+                "available_in": [
+                    "bathroom_contemporary"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Flooring_Wavy_white",
+                "product_amazon": "coming soon..",
+                "product_id": "Flooring_Wavy_white",
+                "product_name": "Wavy white",
+                "product_price": "none",
+                "product_sku": "601706",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/thumbnails/LUNAR-Brown.png",
+                "available_in": [
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Lunaria_Brown",
+                "product_amazon": "coming soon..",
+                "product_id": "Lunaria_Brown",
+                "product_name": "Lunaria Brown",
+                "product_price": "none",
+                "product_sku": "601179",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/thumbnails/MIMOSA_DARK.jpg",
+                "available_in": [
+                    "bathroom_lushgreen"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Mimosa_Dark",
+                "product_amazon": "coming soon..",
+                "product_id": "Mimosa_Dark",
+                "product_name": "Mimosa Dark",
+                "product_price": "none",
+                "product_sku": "601181",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/Icons/Tiles1.svg",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "default",
+                "product_amazon": "coming soon..",
+                "product_id": "default",
+                "product_name": "Default Floor",
+                "product_price": "none",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/Room 4/Flooring/Neom-Black-Marquina-f1.jpg",
+                "available_in": [
+                    "bathroom_palmblossom"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "black_marquina",
+                "product_amazon": "coming soon..",
+                "product_id": "black_marquina",
+                "product_name": "Black Marquina",
+                "product_price": "none",
+                "product_sku": "601010",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/Room 5/Floor/OAKWOOD.jpg",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "oakwood",
+                "product_amazon": "coming soon..",
+                "product_id": "oakwood",
+                "product_name": "Oakwood",
+                "product_price": "none",
+                "product_sku": "601131",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/Room 5/Floor/Cedar Brown.jpg",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Floor_cedar_brown",
+                "product_amazon": "coming soon..",
+                "product_id": "floor_cedar_brown",
+                "product_name": "Cedar Brown",
+                "product_price": "none",
+                "product_sku": "603034",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/Room 5/Floor/Larch Crème.jpg",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Floor_larch_creme",
+                "product_amazon": "coming soon..",
+                "product_id": "larch_crème",
+                "product_name": "Larch Crème",
+                "product_price": "none",
+                "product_sku": "603026",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/Room 5/Floor/River Birch.jpg",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Floor_river_birch",
+                "product_amazon": "coming soon..",
+                "product_id": "river_birch",
+                "product_name": "River Birch",
+                "product_price": "none",
+                "product_sku": "603027",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/Room 5/Floor/Rock Wood.jpg",
+                "available_in": [
+                    "bathroom_modernglam"
+                ],
+                "category_id": "flooring",
+                "category_name": "Flooring",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Floor_rock_wood",
+                "product_amazon": "coming soon..",
+                "product_id": "rock_wood",
+                "product_name": "Rock Wood",
+                "product_price": "none",
+                "product_sku": "602463",
+                "product_yt": "coming soon.."
+            }
+        ]
+    },
+    {
+        "application_image": "/assets/img/Icons/Tiles2.svg",
+        "available_in": [
+            "bathroom_large"
+        ],
+        "category_id": "bathtub_enclosure",
+        "category_name": "Bathtub Platform",
+        "default": "bathtub",
+        "products": [
+            {
+                "application_image": "assets/img/thumbnails/ROMANTIC-BEIGE-R1.jpg",
+                "category_id": "bathtub_enclosure",
+                "category_name": "Bathtub Platform",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Romantic_Beige",
+                "product_amazon": "coming soon..",
+                "product_id": "Romantic_Beige",
+                "product_name": "Romantic Beige",
+                "product_price": "none",
+                "product_sku": "601653",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/thumbnails/ARMANO-BROWN.jpg",
+                "category_id": "bathtub_enclosure",
+                "category_name": "Bathtub Platform",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Armano_Brown",
+                "product_amazon": "coming soon..",
+                "product_id": "Armano Brown",
+                "product_name": "Armano Brown",
+                "product_price": "none",
+                "product_sku": "601117",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/thumbnails/NOIR-GREY-R1.jpg",
+                "category_id": "bathtub_enclosure",
+                "category_name": "Bathtub Platform",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Noir_Grey",
+                "product_amazon": "coming soon..",
+                "product_id": "Noir_Grey",
+                "product_name": "Noir Grey",
+                "product_price": "none",
+                "product_sku": "601641",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/thumbnails/PANDA-WHITE-R1.jpg",
+                "category_id": "bathtub_enclosure",
+                "category_name": "Bathtub Platform",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Panda_White",
+                "product_amazon": "coming soon..",
+                "product_id": "Panda_White",
+                "product_name": "Panda White",
+                "product_price": "none",
+                "product_sku": "601643",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/thumbnails/SUPREME-BROWN-R1.jpg",
+                "category_id": "bathtub_enclosure",
+                "category_name": "Bathtub Platform",
+                "default": false,
+                "default_scale": 1,
+                "mesh_id": "Supreme_Brown",
+                "product_amazon": "coming soon..",
+                "product_id": "Supreme_Brown",
+                "product_name": "Supreme Brown",
+                "product_price": "none",
+                "product_sku": "601642",
+                "product_yt": "coming soon.."
+            }
+        ]
+    },
+    {
+        "application_image": "/assets/img/Icons/Tiles3.svg",
+        "available_in": [
+            "bathroom_contemporary"
+        ],
+        "category_id": "WallWaterCloset",
+        "category_name": "water Closet Wall",
+        "default": "WallWaterCloset_Aurora_Carlo_Polish",
+        "products": [
+            {
+                "application_image": "assets/img/thumbnails/option_1/Neom-Armani-Grey-f1.jpg",
+                "category_id": "Wall",
+                "category_name": "water Closet Wall",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "WallWaterCloset_Armani_Liath",
+                "product_amazon": "coming soon..",
+                "product_id": "WallWaterCloset_Armani_Liath",
+                "product_name": "Armani Liath",
+                "product_price": "none",
+                "product_sku": "602487",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/thumbnails/LIRIO-GREY-1.jpg",
+                "category_id": "Wall",
+                "category_name": "water Closet Wall",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "WallWaterCloset_Lirio_Lt",
+                "product_amazon": "coming soon..",
+                "product_id": "WallWaterCloset_Lirio_Lt",
+                "product_name": "Lirio Grey",
+                "product_price": "none",
+                "product_sku": "601175",
+                "product_yt": "coming soon.."
+            }
+        ]
+    },
+    {
+        "application_image": "/assets/img/Icons/Tiles3.svg",
+        "available_in": [
+            "bathroom_modernglam"
+        ],
+        "category_id": "wall",
+        "category_name": "Wall",
+        "default": "Vanity_wall_Default",
+        "products": [
+            {
+                "application_image": "/assets/img/Icons/Tiles3.svg",
+                "category_id": "wall",
+                "category_name": "Wall",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Vanity_wall_Default",
+                "product_amazon": "coming soon..",
+                "product_id": "vanity_wall_default",
+                "product_name": "Default Wall",
+                "product_price": "none",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Wall/BINARY-CARLO_LAPATO_600X1200.jpg",
+                "category_id": "wall",
+                "category_name": "Wall",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Wall_binary_carlo",
+                "product_amazon": "coming soon..",
+                "product_id": "wall_binary_carlo",
+                "product_name": "Binary Carlo",
+                "product_price": "none",
+                "product_sku": "601415",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Wall/BINARY-PLUTO_LAPATO_60X120.jpg",
+                "category_id": "wall",
+                "category_name": "Wall",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Wall_binary_pluto",
+                "product_amazon": "coming soon..",
+                "product_id": "wall_binary_pluto",
+                "product_name": "Binary Pluto",
+                "product_price": "none",
+                "product_sku": "601419",
+                "product_yt": "coming soon.."
+            }
+        ]
+    },
+    {
+        "application_image": "/assets/img/Icons/Tiles4.svg",
+        "available_in": [
+            "bathroom_contemporary"
+        ],
+        "category_id": "mirrorWall",
+        "category_name": "mirror Wall",
+        "default": "MirrorWall_Abila_HL",
+        "products": [
+            {
+                "application_image": "assets/img/thumbnails/option_1/MARINE-BLUE-R1.jpg",
+                "category_id": "mirrorWall",
+                "category_name": "mirror Wall",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "MirrorWall_Marine_Blue",
+                "product_amazon": "coming soon..",
+                "product_id": "MirrorWall_Marine_Blue",
+                "product_name": "Marine Blue",
+                "product_price": "none",
+                "product_sku": "601656",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/thumbnails/option_2/WAVY-WHITE-DECOR.jpg",
+                "category_id": "mirrorWall",
+                "category_name": "mirror Wall",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "MirrorWall_Wavy_white_decor",
+                "product_amazon": "coming soon..",
+                "product_id": "MirrorWall_Wavy_white_decor",
+                "product_name": "Wavy white decor",
+                "product_price": "none",
+                "product_sku": "601707",
+                "product_yt": "coming soon.."
+            }
+        ]
+    },
+    {
+        "application_image": "/assets/img/Icons/Tiles4.svg",
+        "available_in": [],
+        "category_id": "flooring_2",
+        "category_name": "Flooring Highlights",
+        "default": "Calacutta_Gold _1",
+        "products": [
+            {
+                "application_image": "/assets/img/flooring_2/ANEMONA-BEIGE-2.jpg",
+                "category_id": "flooring_2",
+                "category_name": "Flooring Highlights",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "ANEMONA_BEIGE_2",
+                "product_amazon": "coming soon..",
+                "product_id": "ANEMONA_BEIGE_2",
+                "product_name": "Anemona Beige",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "/assets/img/flooring_2/Polaro Cream-1.jpg",
+                "category_id": "flooring_2",
+                "category_name": "Flooring Highlights",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Polaro_Cream_1",
+                "product_amazon": "coming soon..",
+                "product_id": "Polaro_Cream_1",
+                "product_name": "Polaro Cream",
+                "product_yt": "coming soon.."
+            }
+        ]
+    },
+    {
+        "application_image": "/assets/img/Icons/Tiles2.svg",
+        "available_in": [
+            "bathroom_modernglam"
+        ],
+        "category_id": "shower_floor",
+        "category_name": "Shower Floor",
+        "default": "Neom-Lasa-Bianco",
+        "products": [
+            {
+                "application_image": "/assets/img/Icons/Tiles2.svg",
+                "category_id": "shower_floor",
+                "category_name": "Shower Floor",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Shower_floor_default",
+                "product_amazon": "coming soon..",
+                "product_id": "shower_floor_default",
+                "product_name": "Dafault Shower Floor",
+                "product_price": "none",
+                "product_yt": "coming soon.."
+            },
+            {
+                "application_image": "assets/img/Room 5/Shower Floor/Neom-Lasa-Bianco.jpg",
+                "category_id": "shower_floor",
+                "category_name": "Shower Floor",
+                "default": true,
+                "default_scale": 1,
+                "mesh_id": "Shower_floor_lasa_bianco",
+                "product_amazon": "coming soon..",
+                "product_id": "Neom_Lasa_Bianco",
+                "product_name": "Neom Lasa Bianco",
+                "product_price": "none",
+                "product_sku": "601019",
+                "product_yt": "coming soon.."
+            }
+        ]
+    }
+]

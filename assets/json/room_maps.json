@@ -1,0 +1,964 @@
+{
+    "bathroom_contemporary": {
+        "ambient_intensity": 4,
+        "autorotate_target": [
+            15,
+            4,
+            3
+        ],
+        "camera_position": [
+            21.440212096649706,
+            4.250696330599149,
+            3.186241654624169
+        ],
+        "camera_target": [
+            15,
+            4,
+            3
+        ],
+        "collider": {
+            "depth": 8,
+            "height": 7.8,
+            "width": 8
+        },
+        "collider_position": [
+            21,
+            4.5,
+            4.5
+        ],
+        "dome": "pool_2k.jpg",
+        "fov": 0.88,
+        "inertia": 0.7,
+        "loader_dome": "/assets/img/bathroom_contemporary_panorama.jpg",
+        "mirror_plane_distance": 15,
+        "mirror_plane_normals": [
+            -1,
+            0,
+            0
+        ],
+        "reflective_meshes": [
+            "Stand",
+            "bathtubWall",
+            "shower_enclosure",
+            "bathtub_objects",
+            "shower",
+            "shower_enlosure_glass",
+            "doorWall",
+            "WallWaterCloset",
+            "wall_hanging",
+            "ceiling_lights.001",
+            "flooring",
+            "pebbles",
+            "bathtub",
+            "chair",
+            "stool",
+            "Towel",
+            "ceiling",
+            "water_closet",
+            "window",
+            "indoor_plant"
+        ],
+        "room_centre": [
+            21.440212096649706,
+            4.250696330599149,
+            3.186241654624169
+        ],
+        "textures": {
+            "shower_enlosure_glass": {
+                "alpha": true
+            }
+        },
+        "variable_meshes": {
+            "WallWaterCloset": {
+                "default": "WallWaterCloset_Armani_Liath",
+                "name": "AURORA CARLO POLISH",
+                "position": [
+                    19.90130865675865,
+                    2.1087917614259277,
+                    1.0386623895654754
+                ],
+                "size": 0.4,
+                "surface_points": [
+                    19.6,
+                    6.2,
+                    12.4
+                ],
+                "target": [
+                    20.14671126443682,
+                    2.98057735208154,
+                    4.888567640176086
+                ]
+            },
+            "faucet": {
+                "default": "Edge_SLBM_Tall",
+                "name": "Faucet",
+                "position": [
+                    17.505677329944277,
+                    4.095445343578344,
+                    1.0013034848147866
+                ],
+                "size": 0.3,
+                "surface_points": [
+                    12.1,
+                    3.3,
+                    2.0
+                ],
+                "target": [
+                    13.680426880542523,
+                    3.419092221601799,
+                    2.529997492283472
+                ]
+            },
+            "flooring": {
+                "default": "Flooring_Locorust_Grey",
+                "name": "Flooring",
+                "position": [
+                    24,
+                    4,
+                    3
+                ],
+                "size": 0.4,
+                "surface_points": [
+                    19.470443877607778,
+                    0.4,
+                    2.8567184688366503
+                ]
+            },
+            "mirrorWall": {
+                "default": "MirrorWall_Marine_Blue",
+                "name": "AURORA CARLO POLISH",
+                "position": [
+                    24.25323536120698,
+                    4.920871909800079,
+                    3.8498520490290877
+                ],
+                "size": 0.4,
+                "surface_points": [
+                    12.9,
+                    6.5,
+                    3.5
+                ],
+                "target": [
+                    19.157612142584696,
+                    5.043437127941575,
+                    3.7098409611199927
+                ]
+            },
+            "shower": {
+                "default": "Cascade_Shower_FINAL_1",
+                "name": "Shower",
+                "position": [
+                    20.41482029987872,
+                    3.8616566032309074,
+                    4.230025488404334
+                ],
+                "size": 0.4,
+                "surface_points": [
+                    30.299563884735107,
+                    5.180204933915421,
+                    10.675954843447377
+                ],
+                "target": [
+                    28.910294497898555,
+                    4.318079670312765,
+                    13.21724619073943
+                ]
+            },
+            "wash_basin": {
+                "default": "Over_Counter_Amazon_91094_Model",
+                "name": "Wash Basin",
+                "position": [
+                    17.505677329944277,
+                    4.095445343578344,
+                    1.0013034848147866
+                ],
+                "size": 0.3,
+                "surface_points": [
+                    14.1,
+                    2.9,
+                    2.1
+                ],
+                "target": [
+                    13.680426880542523,
+                    3.419092221601799,
+                    2.529997492283472
+                ]
+            },
+            "water_closet": {
+                "default": "Margo_R_final",
+                "name": "Wash Basin",
+                "position": [
+                    17.50861958881186,
+                    2.108307273050534,
+                    7.996559021562413
+                ],
+                "size": 0.4,
+                "surface_points": [
+                    20,
+                    2.3,
+                    12.68
+                ],
+                "target": [
+                    20.555381649572503,
+                    1.8123110902603745,
+                    11.94999147732348
+                ]
+            }
+        }
+    },
+    "bathroom_modernglam": {
+        "ambient_intensity": 1,
+        "camera_position": [
+            0.1,
+            1.25,
+            0.4
+        ],
+        "camera_target": [
+            51.38878759163413,
+            -2.406191741682923,
+            0.4087399847000707
+        ],
+        "collider": {
+            "depth": 3.4,
+            "height": 1.9,
+            "width": 1.9
+        },
+        "collider_position": [
+            0.09,
+            0.4,
+            0.12
+        ],
+        "dome": null,
+        "fov": 1.1,
+        "inertia": 0.85,
+        "loader_dome": "/assets/img/bathroom_modernglam_panorama.webp",
+        "mirror_plane_normals": [
+            1,
+            0,
+            0
+        ],
+        "reflective_meshes": [
+            "Wall White",
+            "Ceiling",
+            "ACC WRD",
+            "Wardrobe",
+            "shower_floor",
+            "water_closet",
+            "Wall Palisandro",
+            "POT",
+            "wash_basin",
+            "flooring"
+        ],
+        "textures": {
+            "Glass": {
+                "alpha": true
+            },
+            "Mirror": {
+                "dispose": true
+            }
+        },
+        "variable_meshes": {
+            "faucet": {
+                "default": "Edge_SLBM_Tall_gold",
+                "name": "Faucet",
+                "position": [
+                    0.2692432628872906,
+                    1.081133064721272,
+                    -0.6695556878159394
+                ],
+                "size": 0.06,
+                "surface_points": [
+                    1.75,
+                    1.0,
+                    0.41
+                ],
+                "target": [
+                    39.467985202430484,
+                    -3.8575969956039406,
+                    33.15761651108439
+                ]
+            },
+            "flooring": {
+                "default": "floor_oakwood",
+                "name": "Flooring",
+                "position": [
+                    -1.195515442758876,
+                    1.2560066993849606,
+                    -1.0936631878078216
+                ],
+                "size": 0.06,
+                "surface_points": [
+                    -0.1,
+                    -1.28,
+                    0.65
+                ],
+                "target": [
+                    28.490267272507282,
+                    -19.30516321365945,
+                    36.449543326515126
+                ]
+            },
+            "shower": {
+                "default": "rain_shower_rose_gold",
+                "name": "Shower",
+                "position": [
+                    -0.52,
+                    1.34,
+                    -0.58
+                ],
+                "size": 0.08,
+                "surface_points": [
+                    1.3,
+                    1.3,
+                    -1.99
+                ],
+                "target": [
+                    45.57,
+                    1.43,
+                    -23.4
+                ]
+            },
+            "shower_floor": {
+                "default": "Shower_floor_default",
+                "name": "Shower Floor",
+                "position": [
+                    -0.5199999982118606,
+                    1.170175176253784,
+                    1.064116870103969
+                ],
+                "size": 0.08,
+                "surface_points": [
+                    -0.49,
+                    0.13,
+                    -1.38
+                ],
+                "target": [
+                    6.278946421506136,
+                    -4.268327293317435,
+                    -49.77959872696779
+                ]
+            },
+            "wall": {
+                "default": "Vanity_wall_Default",
+                "name": "Wall",
+                "position": [
+                    -0.6276850901678277,
+                    1.3430804634946831,
+                    0.8143173293439979
+                ],
+                "size": 0.08,
+                "surface_points": [
+                    1.8,
+                    1.51,
+                    1.19
+                ],
+                "target": [
+                    49.71519526968196,
+                    -0.7428444548466642,
+                    -4.223660706070582
+                ]
+            },
+            "wash_basin": {
+                "default": "Over_Counter_Amazon_Star_White",
+                "name": "Wash Basin",
+                "position": [
+                    0.2692432628872906,
+                    1.081133064721272,
+                    -0.6695556878159394
+                ],
+                "size": 0.06,
+                "surface_points": [
+                    1.38,
+                    0.81,
+                    0.42
+                ],
+                "target": [
+                    39.467985202430484,
+                    -3.8575969956039406,
+                    33.15761651108439
+                ]
+            },
+            "water_closet": {
+                "default": "Element_Plus_Star_White",
+                "name": "Water Closet",
+                "position": [
+                    -0.11691275112948493,
+                    0.8121492487428055,
+                    0.7007009505690986
+                ],
+                "size": 0.08,
+                "surface_points": [
+                    -1.12,
+                    0.41,
+                    -0.51
+                ],
+                "target": [
+                    -29.809164837692464,
+                    0.5092012794975211,
+                    -42.00162072535054
+                ]
+            }
+        }
+    },
+    "bathroom_palmblossom": {
+        "ambient_intensity": 1,
+        "camera_position": [
+            4.15,
+            1.3,
+            5.43
+        ],
+        "camera_target": [
+            44.09,
+            1.53,
+            6.02
+        ],
+        
+        "collider": "collider",
+        "dome": null,
+        "fov": 0.8,
+        "inertia": 0.85,
+        
+        "loader_dome": "/assets/img/bathroom_palmblossom_panorama.webp",
+        "reflective_meshes": [
+            "tree_decor",
+            "side_wall",
+            "glass",
+            "wardrobe",
+            "right_wall",
+            "box",
+            "flooring",
+            "vase2",
+            "photo_frame",
+            "blinds",
+            "window",
+            "ceiling_lights",
+            "vase",
+            "side_wardrobe",
+            "hangers",
+            "crumpled_towel",
+            "wardrobe_towels",
+            "books",
+            "shoes",
+            "tshirt_zelda",
+            "slippers",
+            "mirror_wall",
+            "pampas_twigs",
+            "pampas_twigs1",
+            "pampas_twigs2",
+            "pampas_twigs3",
+            "pampas_twigs4",
+            "gray_glass_vase",
+            "stand",
+            "dresser",
+            "potted_plant",
+            "wash_basin",
+            "ACC WRD.004",
+            "ACC WRD.003",
+            "ACC WRD.002",
+            "ACC WRD.005"
+        ],
+        "textures": {
+            "collider": {
+                "visibility": 0
+            },
+            
+            "mirror": {
+                "dispose": true
+            },
+            "glass":{
+                "alpha":true
+            }
+        },
+        "variable_meshes": {
+            "faucet": {
+                "default": "edge_slbm_tall",
+                "name": "Faucet",
+                "position": [
+                    2.64,
+                    1.54,
+                    5.27
+                ],
+                "size": 0.06,
+                "surface_points": [
+                    3.66,
+                    1.25,
+                    3.45
+                ],
+                "target": [
+                    25.16,
+                    -0.77,
+                    -28.02
+                ]
+            },
+            "flooring": {
+                "default": "default",
+                "name": "Flooring",
+                "position": [
+                    6.5,
+                    1.33,
+                    3.74
+                ],
+                "size": 0.06,
+                "surface_points": [
+                    5.75,
+                    0.1,
+                    5.53
+                ],
+                "target": [
+                    -23.86,
+                    -12.51,
+                    24.66
+                ]
+            },
+            "shower": {
+                "default": "f160123",
+                "name": "Shower",
+                "position": [
+                    6.80001342980105,
+                    1.7,
+                    5.0
+                ],
+                "size": 0.08,
+                "surface_points": [
+                    8.1,
+                    1.49,
+                    1.85
+                ],
+                "target": [
+                    20.0,
+                    2.6305124148010033,
+                    -29.863368893968367
+                ]
+            },
+            "wash_basin": {
+                "default": "fonte",
+                "name": "Wash Basin",
+                "position": [
+                    2.64,
+                    1.54,
+                    5.27
+                ],
+                "size": 0.06,
+                "surface_points": [
+                    3.7,
+                    1.1,
+                    3.9
+                ],
+                "target": [
+                    25.16,
+                    -0.77,
+                    -28.02
+                ]
+            },
+            "water_closet": {
+                "default": "e_clenz",
+                "name": "Water Closet",
+                "position": [
+                    6.03,
+                    1.22,
+                    2.92
+                ],
+                "size": 0.08,
+                "surface_points": [
+                    7.45,
+                    0.75,
+                    4.6
+                ],
+                "target": [
+                    32.67,
+                    -5.22,
+                    32.44
+                ]
+            }
+        }
+    },
+    "bathroom_large": {
+        "ambient_intensity": 1,
+        "camera_position": [
+            -0.7556876368597553,
+            1.2744647261542053,
+            -0.0888960364691972
+        ],
+        "camera_target": [
+            24.57617798921311,
+            -0.49974979767650995,
+            -0.6832943362886
+        ],
+        "collider": {
+            "depth": 3.5,
+            "height": 2.5,
+            "width": 7.5
+        },
+        "collider_position": [
+            0,
+            0.5,
+            0
+        ],
+        "dome": "pool_2k.jpg",
+        "fov": 0.85,
+        "hdr": "/assets/img/bathroom_large.env",
+        "inertia": 0.6,
+        "loader_dome": "/assets/img/bathroom_large_panorama.jpg",
+        "mirror_plane_distance": -2,
+        "reflective_meshes": [
+            "shower",
+            "wash_basin",
+            "faucet",
+            "flooring",
+            "Armano_Beige",
+            "bathRobe",
+            "water_closet",
+            "doorWall.001",
+            "leftWall",
+            "windowWall",
+            "rightWall",
+            "vanity",
+            "The flowers in the frame",
+            "doorWall",
+            "chair",
+            "lampRobe&stool",
+            "carpet",
+            "chandelier_main",
+            "frame glass",
+            "glass",
+            "vaseNearBathtub",
+            "bathtub_enclosure",
+            "uppervanityStaticModels",
+            "Plaster Cornice",
+            "elevatedSurface",
+            "chandelier_glass",
+            " molding left wall",
+            " molding left wall up",
+            "molding vanity",
+            "molding vanity up",
+            "molding window wall up",
+            "molding window wall down 1 ",
+            "molding window wall down 2",
+            " molding left wall001",
+            "POLE",
+            "Ceiling",
+            "molding ceiling",
+            "Basket",
+            "molding window wall"
+        ],
+        "textures": {
+            "Mirror ": {
+                "dispose": true
+            },
+            "The flowers in the frame": {
+                "albedoColor": [
+                    0.71875,
+                    0.44921875,
+                    0.19921875
+                ],
+                "emissiveIntensity": 1.2,
+                "glossy": true,
+                "metallicReflectanceColor": [
+                    0.71875,
+                    0.44921875,
+                    0.19921875
+                ],
+                "roughness": 0.05
+            },
+            "flooring": {
+                "emissiveIntensity": 0.2,
+                "glossy": true,
+                "roughness": 0.01,
+                "specularIntensity": 0.05
+            },
+            "glass.001": {
+                "alpha": true
+            },
+            "shower": {
+                "glossy": true
+            }
+        },
+        "variable_meshes": {
+            "bathtub_enclosure": {
+                "default": "Noir_Grey",
+                "name": "Bathtub Enclosure",
+                "position": [
+                    -1.4027154937609003,
+                    1.4236885117637903,
+                    -0.7419203167758787
+                ],
+                "size": 0.1,
+                "surface_points": [
+                    1.6,
+                    0.39,
+                    -0.1
+                ],
+                "target": [
+                    22.361185947901692,
+                    -6.33943794580591,
+                    4.414925061284514
+                ]
+            },
+            "faucet": {
+                "default": "Edge_SLBM_Tall",
+                "name": "Faucet",
+                "position": [
+                    0.31874923501720764,
+                    1.2317846909447037,
+                    -0.9990608393712942
+                ],
+                "size": 0.06,
+                "surface_points": [
+                    -0.93,
+                    0.98,
+                    -2.4
+                ],
+                "target": [
+                    -18.301219512574797,
+                    -2.6931244938630474,
+                    -18.012996010800176
+                ]
+            },
+            "flooring": {
+                "default": "Armano_Beige",
+                "name": "Flooring",
+                "options": [
+                    "Armano_Beige",
+                    "Marcellus_Beige",
+                    "Oyster_brown",
+                    "Pearl_Grey"
+                ],
+                "position": [
+                    -2.749957259685111,
+                    1.7488423319105029,
+                    -0.02768092723377732
+                ],
+                "size": 0.09,
+                "surface_points": [
+                    0.35238212759799925,
+                    0.2,
+                    -0.0937055201795658
+                ],
+                "target": [
+                    21.381602596249802,
+                    -6.56694561837122,
+                    0.2847070117008304
+                ]
+            },
+            "shower": {
+                "default": "Cascade_Shower_FINAL_1",
+                "name": "Shower",
+                "position": [
+                    -2.999920705949091,
+                    1.0016157672276738,
+                    -0.6375638656684948
+                ],
+                "size": 0.06,
+                "surface_points": [
+                    -1.0,
+                    1.37,
+                    2.4
+                ],
+                "target": [
+                    8.409767451910975,
+                    1.7596226531782717,
+                    22.184061189413168
+                ]
+            },
+            "wash_basin": {
+                "default": "Over_Counter_Amazon_91094_Model",
+                "name": "Wash Basin",
+                "position": [
+                    0.31874923501720764,
+                    1.2317846909447037,
+                    -0.9990608393712942
+                ],
+                "size": 0.05,
+                "surface_points": [
+                    -0.8779980506358441,
+                    0.8370748641289412,
+                    -1.988718306611195
+                ],
+                "target": [
+                    -18.301219512574797,
+                    -2.6931244938630474,
+                    -18.012996010800176
+                ]
+            },
+            "water_closet": {
+                "default": "Margo_R_final",
+                "name": "Sink",
+                "options": [
+                    "Automate2-1",
+                    "E_Clenz_WC_final",
+                    "Element_Plus_WC_01",
+                    "EWC_WM_TANKLESS_S2",
+                    "Margo_R_final"
+                ],
+                "position": [
+                    -1.958405019206879,
+                    1.0066902425908082,
+                    -0.23322026762798673
+                ],
+                "size": 0.09,
+                "surface_points": [
+                    -3.4,
+                    0.5213303822078241,
+                    1.75
+                ]
+            }
+        }
+    },
+    "bathroom_lushgreen": {
+        "ambient_intensity": 1,
+        "camera_position": [
+            0,
+            1.2,
+            0
+        ],
+        "camera_target": [
+            1.1,
+            1.2,
+            -52
+        ],
+        "collider": {
+            "depth": 6.6,
+            "height": 2,
+            "width": 4
+        },
+        "collider_position": [
+            -0.2,
+            0.7,
+            0.1
+        ],
+        "dome": null,
+        "fov": 0.8,
+        "inertia": 0.7,
+        "loader_dome": "/assets/img/bathroom_lushgreen_panorama.jpg",
+        "mirror_plane_distance": -100,
+        "mirror_plane_normals": [
+            -100,
+            0,
+            -1
+        ],
+        "reflective_meshes": [
+            "Wall leaves",
+            "White wall",
+            "Door",
+            "Glass wall frame",
+            "Ceiling",
+            "water_closet",
+            "towel on sink",
+            "flower on sink",
+            "Black Wall ",
+            "wash_basin",
+            "flooring",
+            "Puff"
+        ],
+        "textures": {
+            "Glass Clear": {
+                "alpha": true
+            },
+            "Mirror": {
+                "dispose": true
+            }
+        },
+        "variable_meshes": {
+            "faucet": {
+                "default": "Edge_SLBM_Tall",
+                "name": "Faucet",
+                "position": [
+                    -1.2,
+                    1.7,
+                    2.4
+                ],
+                "size": 0.06,
+                "surface_points": [
+                    -2.753322849055163,
+                    0.9664252760012146,
+                    1.3303294484988748
+                ],
+                "target": [
+                    -39.5,
+                    -18.75,
+                    -28.10
+                ]
+            },
+            "flooring": {
+                "default": "Lunaria_Brown",
+                "name": "Flooring",
+                "position": [
+                    -1.195515442758876,
+                    1.2560066993849606,
+                    -1.0936631878078216
+                ],
+                "size": 0.06,
+                "surface_points": [
+                    -0.8163497162825892,
+                    0.1082316863867197,
+                    0.12030656350375035
+                ],
+                "target": [
+                    20.14595352471313,
+                    -15.708394543990805,
+                    43.29384220899198
+                ]
+            },
+            "shower": {
+                "default": "Body_Cascade_Shower_Final",
+                "name": "Shower",
+                "position": [
+                    1.295038720017004,
+                    1.4508758345356418,
+                    -2.1182799203500684
+                ],
+                "size": 0.08,
+                "surface_points": [
+                    -2.27880010156606,
+                    1.678966640911622,
+                    -1.7014090845903929
+                ],
+                "target": [
+                    -50.721833710345656,
+                    3.8423177568920157,
+                    -0.6948820835141927
+                ]
+            },
+            "wash_basin": {
+                "default": "Essence_WB_final",
+                "name": "Wash Basin",
+                "position": [
+                    -1.2,
+                    1.7,
+                    2.4
+                ],
+                "size": 0.06,
+                "surface_points": [
+                    -2.133989691628745,
+                    0.8025020231205855,
+                    1.2542851057724198
+                ],
+                "target": [
+                    -39.5,
+                    -18.75,
+                    -28.10
+                ]
+            },
+            "water_closet": {
+                "default": "Margo_R_final",
+                "name": "Water Closet",
+                "position": [
+                    0.6,
+                    1.2,
+                    0.8
+                ],
+                "size": 0.08,
+                "surface_points": [
+                    0.22596257722049523,
+                    0.6918538446308841,
+                    3.126956321774851
+                ],
+                "target": [
+                    -0.4626350722233715,
+                    0.00719996789270283,
+                    8.563742096050756
+                ]
+            }
+        }
+    }
+}
