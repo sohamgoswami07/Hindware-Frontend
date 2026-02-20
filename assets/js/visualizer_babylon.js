@@ -103,7 +103,7 @@ function load_scene(elementId) {
             loadp.loader_timer = setTimeout(f, 5000);
         }
         loadp.room = new BABYLON.SceneLoader.Append(
-            "/assets/glb/",
+            "assets/glb/",
             room_id + ".glb",
             loadp.scene,
             function(scene) {
@@ -158,7 +158,7 @@ function load_scene(elementId) {
                 if (loadp.data.dome) {
                     loadp.dome = new BABYLON.PhotoDome(
                         "exterior",
-                        "/assets/img/" + (loadp.data.dome || 'forest.jpg'),
+                        "assets/img/" + (loadp.data.dome || 'forest.jpg'),
                         {
                             useDirectMapping: false,
                         },
@@ -286,7 +286,7 @@ function load_scene(elementId) {
         loadp.mirrors = [];
         let r = loadp.scene.getMeshByName('__root__');
         new BABYLON.SceneLoader.ImportMesh(null,
-            "/assets/glb/",
+            "assets/glb/",
             room_id + "_mirror.glb",
             loadp.scene,
             function(mesh) {
@@ -431,7 +431,7 @@ function load_scene(elementId) {
         console.log("Switching between " + mesh1 + " and " + mesh2)
         let m = loadp.scene.getMeshByName(mesh1);
         let r = loadp.scene.getMeshByName('__root__');
-        BABYLON.SceneLoader.ImportMesh(null, "/assets/glb/" +loadp.room_id +'/', mesh2 + '.glb', loadp.scene, function(mesh) {
+        BABYLON.SceneLoader.ImportMesh(null, "assets/glb/" +loadp.room_id +'/', mesh2 + '.glb', loadp.scene, function(mesh) {
             let root = mesh[0];
             //body is our actual player mesh
             root.getChildMeshes().forEach(m1 => {

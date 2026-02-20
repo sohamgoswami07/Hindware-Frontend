@@ -1,6 +1,6 @@
 [
     {
-        "application_image": "/assets/img/Icons/shower.svg",
+        "application_image": "assets/img/Icons/shower.svg",
         "category_id": "shower",
         "category_name": "Shower",
         "default": "Cascade_Shower_FINAL_1",
@@ -226,7 +226,7 @@
         ]
     },
     {
-        "application_image": "/assets/img/Icons/Faucet.svg",
+        "application_image": "assets/img/Icons/Faucet.svg",
         "category_id": "faucet",
         "category_name": "Faucet",
         "default": "Edge_SLBM_Tall",
@@ -393,7 +393,7 @@
         ]
     },
     {
-        "application_image": "/assets/img/Icons/wash-basin.svg",
+        "application_image": "assets/img/Icons/wash-basin.svg",
         "category_id": "wash_basin",
         "category_name": "wash basin",
         "default": "Over_Counter_Amazon_91094_Model",
@@ -578,7 +578,7 @@
         ]
     },
     {
-        "application_image": "/assets/img/Icons/commode.svg",
+        "application_image": "assets/img/Icons/commode.svg",
         "category_id": "water_closet",
         "category_name": "water Closet",
         "default": "Automate2_1",
@@ -848,7 +848,7 @@
         ]
     },
     {
-        "application_image": "/assets/img/Icons/Tiles1.svg",
+        "application_image": "assets/img/Icons/Tiles1.svg",
         "category_id": "flooring",
         "category_name": "Flooring",
         "products": [
@@ -921,7 +921,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/thumbnails/option_1/LOCORUST-GREY.jpg",
+                "application_image": "assets/img/thumbnails/option_1/LOCORUST-GREY.jpg",
                 "available_in": [
                     "bathroom_contemporary"
                 ],
@@ -955,7 +955,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/thumbnails/LUNAR-Brown.png",
+                "application_image": "assets/img/thumbnails/LUNAR-Brown.png",
                 "available_in": [
                     "bathroom_lushgreen"
                 ],
@@ -972,7 +972,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/thumbnails/MIMOSA_DARK.jpg",
+                "application_image": "assets/img/thumbnails/MIMOSA_DARK.jpg",
                 "available_in": [
                     "bathroom_lushgreen"
                 ],
@@ -989,7 +989,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/Icons/Tiles1.svg",
+                "application_image": "assets/img/Icons/Tiles1.svg",
                 "available_in": [
                     "bathroom_palmblossom"
                 ],
@@ -1005,7 +1005,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/Room 4/Flooring/Neom-Black-Marquina-f1.jpg",
+                "application_image": "assets/img/Room 4/Flooring/Neom-Black-Marquina-f1.jpg",
                 "available_in": [
                     "bathroom_palmblossom"
                 ],
@@ -1022,7 +1022,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/Room 5/Floor/OAKWOOD.jpg",
+                "application_image": "assets/img/Room 5/Floor/OAKWOOD.jpg",
                 "available_in": [
                     "bathroom_modernglam"
                 ],
@@ -1039,7 +1039,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/Room 5/Floor/Cedar Brown.jpg",
+                "application_image": "assets/img/Room 5/Floor/Cedar Brown.jpg",
                 "available_in": [
                     "bathroom_modernglam"
                 ],
@@ -1056,7 +1056,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/Room 5/Floor/Larch Crème.jpg",
+                "application_image": "assets/img/Room 5/Floor/Larch Crème.jpg",
                 "available_in": [
                     "bathroom_modernglam"
                 ],
@@ -1073,7 +1073,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/Room 5/Floor/River Birch.jpg",
+                "application_image": "assets/img/Room 5/Floor/River Birch.jpg",
                 "available_in": [
                     "bathroom_modernglam"
                 ],
@@ -1090,7 +1090,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/Room 5/Floor/Rock Wood.jpg",
+                "application_image": "assets/img/Room 5/Floor/Rock Wood.jpg",
                 "available_in": [
                     "bathroom_modernglam"
                 ],
@@ -1109,7 +1109,7 @@
         ]
     },
     {
-        "application_image": "/assets/img/Icons/Tiles2.svg",
+        "application_image": "assets/img/Icons/Tiles2.svg",
         "available_in": [
             "bathroom_large"
         ],
@@ -1160,7 +1160,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/thumbnails/PANDA-WHITE-R1.jpg",
+                "application_image": "assets/img/thumbnails/PANDA-WHITE-R1.jpg",
                 "category_id": "bathtub_enclosure",
                 "category_name": "Bathtub Platform",
                 "default": false,
@@ -1174,7 +1174,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/thumbnails/SUPREME-BROWN-R1.jpg",
+                "application_image": "assets/img/thumbnails/SUPREME-BROWN-R1.jpg",
                 "category_id": "bathtub_enclosure",
                 "category_name": "Bathtub Platform",
                 "default": false,
@@ -1190,7 +1190,7 @@
         ]
     },
     {
-        "application_image": "/assets/img/Icons/Tiles3.svg",
+        "application_image": "assets/img/Icons/Tiles3.svg",
         "available_in": [
             "bathroom_contemporary"
         ],
@@ -1229,7 +1229,7 @@
         ]
     },
     {
-        "application_image": "/assets/img/Icons/Tiles3.svg",
+        "application_image": "assets/img/Icons/Tiles3.svg",
         "available_in": [
             "bathroom_modernglam"
         ],
@@ -1238,7 +1238,7 @@
         "default": "Vanity_wall_Default",
         "products": [
             {
-                "application_image": "/assets/img/Icons/Tiles3.svg",
+                "application_image": "assets/img/Icons/Tiles3.svg",
                 "category_id": "wall",
                 "category_name": "Wall",
                 "default": true,
@@ -1281,7 +1281,7 @@
         ]
     },
     {
-        "application_image": "/assets/img/Icons/Tiles4.svg",
+        "application_image": "assets/img/Icons/Tiles4.svg",
         "available_in": [
             "bathroom_contemporary"
         ],
@@ -1320,14 +1320,14 @@
         ]
     },
     {
-        "application_image": "/assets/img/Icons/Tiles4.svg",
+        "application_image": "assets/img/Icons/Tiles4.svg",
         "available_in": [],
         "category_id": "flooring_2",
         "category_name": "Flooring Highlights",
         "default": "Calacutta_Gold _1",
         "products": [
             {
-                "application_image": "/assets/img/flooring_2/ANEMONA-BEIGE-2.jpg",
+                "application_image": "assets/img/flooring_2/ANEMONA-BEIGE-2.jpg",
                 "category_id": "flooring_2",
                 "category_name": "Flooring Highlights",
                 "default": true,
@@ -1339,7 +1339,7 @@
                 "product_yt": "coming soon.."
             },
             {
-                "application_image": "/assets/img/flooring_2/Polaro Cream-1.jpg",
+                "application_image": "assets/img/flooring_2/Polaro Cream-1.jpg",
                 "category_id": "flooring_2",
                 "category_name": "Flooring Highlights",
                 "default": true,
@@ -1353,7 +1353,7 @@
         ]
     },
     {
-        "application_image": "/assets/img/Icons/Tiles2.svg",
+        "application_image": "assets/img/Icons/Tiles2.svg",
         "available_in": [
             "bathroom_modernglam"
         ],
@@ -1362,7 +1362,7 @@
         "default": "Neom-Lasa-Bianco",
         "products": [
             {
-                "application_image": "/assets/img/Icons/Tiles2.svg",
+                "application_image": "assets/img/Icons/Tiles2.svg",
                 "category_id": "shower_floor",
                 "category_name": "Shower Floor",
                 "default": true,

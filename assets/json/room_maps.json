@@ -29,7 +29,7 @@
         "dome": "pool_2k.jpg",
         "fov": 0.88,
         "inertia": 0.7,
-        "loader_dome": "/assets/img/bathroom_contemporary_panorama.jpg",
+        "loader_dome": "assets/img/bathroom_contemporary_panorama.jpg",
         "mirror_plane_distance": 15,
         "mirror_plane_normals": [
             -1,
@@ -231,7 +231,7 @@
         "dome": null,
         "fov": 1.1,
         "inertia": 0.85,
-        "loader_dome": "/assets/img/bathroom_modernglam_panorama.webp",
+        "loader_dome": "assets/img/bathroom_modernglam_panorama.webp",
         "mirror_plane_normals": [
             1,
             0,
@@ -418,7 +418,7 @@
         "fov": 0.8,
         "inertia": 0.85,
         
-        "loader_dome": "/assets/img/bathroom_palmblossom_panorama.webp",
+        "loader_dome": "assets/img/bathroom_palmblossom_panorama.webp",
         "reflective_meshes": [
             "tree_decor",
             "side_wall",
@@ -596,9 +596,9 @@
         ],
         "dome": "pool_2k.jpg",
         "fov": 0.85,
-        "hdr": "/assets/img/bathroom_large.env",
+        "hdr": "assets/img/bathroom_large.env",
         "inertia": 0.6,
-        "loader_dome": "/assets/img/bathroom_large_panorama.jpg",
+        "loader_dome": "assets/img/bathroom_large_panorama.jpg",
         "mirror_plane_distance": -2,
         "reflective_meshes": [
             "shower",
@@ -829,7 +829,7 @@
         "dome": null,
         "fov": 0.8,
         "inertia": 0.7,
-        "loader_dome": "/assets/img/bathroom_lushgreen_panorama.jpg",
+        "loader_dome": "assets/img/bathroom_lushgreen_panorama.jpg",
         "mirror_plane_distance": -100,
         "mirror_plane_normals": [
             -100,
